@@ -314,12 +314,10 @@ const DynamicProductPage = () => {
     };
 
     if (hasColors && typeof colorIndex === 'number') {
-      // Map color index to the correct imagecolour field
+      // Show color-specific images first
       processField(colorImageFields[colorIndex]);
-      // Fallback to base gallery if no color-specific images uploaded yet
-      if (images.length === 0) {
-        baseImageFields.forEach(processField);
-      }
+      // Then append base gallery images so user always has multiple views
+      baseImageFields.forEach(processField);
     } else {
       baseImageFields.forEach(processField);
     }
