@@ -140,6 +140,8 @@
   display: flex;
   flex-direction: column;
   gap: 0;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .titleRow {
@@ -728,12 +730,13 @@
     max-width: 100vw;
   }
   .productGrid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 16px;
     margin-bottom: 24px;
   }
   .gallery {
     position: static;
+    max-width: 100%;
   }
   .mainImage {
     height: 300px;
@@ -859,5 +862,53 @@
   }
   .specValue {
     font-size: 13px;
+  }
+  .colorSwatches {
+    gap: 8px;
+  }
+  .colorSwatch {
+    width: 54px;
+  }
+  .colorSwatchBox {
+    width: 54px;
+    height: 54px;
+    border-radius: 8px;
+  }
+  .colorSwatchLabel {
+    font-size: 9px;
+    max-width: 54px;
+  }
+}
+
+@media (max-width: 360px) {
+  .trustLabel {
+    font-size: 9px;
+  }
+  .trustIcon {
+    font-size: 16px;
+  }
+  .trustRow {
+    gap: 4px;
+    padding: 8px;
+  }
+  .mainImage {
+    height: 220px;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .price {
+    font-size: 20px;
+  }
+  .colorSwatch {
+    width: 48px;
+  }
+  .colorSwatchBox {
+    width: 48px;
+    height: 48px;
+  }
+  .colorSwatchLabel {
+    font-size: 8px;
+    max-width: 48px;
   }
 }
