@@ -1,0 +1,450 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  padding: 20px;
+  padding-top: 100px;
+  color: #e2e8f0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: rgba(30, 41, 59, 0.8);
+  border-radius: 12px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.headerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.backLink {
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.backLink:hover {
+  color: #3b82f6;
+}
+
+.headerContent h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #3b82f6;
+}
+
+.statsRow {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.statCard {
+  background: rgba(30, 41, 59, 0.8);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  border-radius: 12px;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  min-width: 120px;
+}
+
+.statValue {
+  font-size: 28px;
+  font-weight: 700;
+  color: #f1f5f9;
+}
+
+.statLabel {
+  font-size: 13px;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.statPending .statValue {
+  color: #f59e0b;
+}
+
+.statApproved .statValue {
+  color: #10b981;
+}
+
+.filterTabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.filterTab {
+  padding: 10px 22px;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  background: rgba(30, 41, 59, 0.6);
+  color: #94a3b8;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.filterTab:hover {
+  border-color: #3b82f6;
+  color: #e2e8f0;
+}
+
+.filterTabActive {
+  background: rgba(59, 130, 246, 0.2);
+  border-color: #3b82f6;
+  color: #3b82f6;
+  font-weight: 600;
+}
+
+.reviewsList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.reviewCard {
+  background: rgba(30, 41, 59, 0.8);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  border-radius: 12px;
+  padding: 24px;
+  transition: border-color 0.2s;
+}
+
+.reviewCard:hover {
+  border-color: rgba(59, 130, 246, 0.4);
+}
+
+.reviewCardPending {
+  border-left: 4px solid #f59e0b;
+}
+
+.reviewCardApproved {
+  border-left: 4px solid #10b981;
+}
+
+.reviewTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.reviewMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.reviewerName {
+  font-weight: 600;
+  font-size: 16px;
+  color: #f1f5f9;
+}
+
+.reviewerEmail {
+  font-size: 13px;
+  color: #64748b;
+}
+
+.reviewBadges {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.badgePending {
+  background: rgba(245, 158, 11, 0.2);
+  color: #f59e0b;
+}
+
+.badgeApproved {
+  background: rgba(16, 185, 129, 0.2);
+  color: #10b981;
+}
+
+.badgeVerified {
+  background: rgba(59, 130, 246, 0.2);
+  color: #3b82f6;
+}
+
+.productBadge {
+  background: rgba(139, 92, 246, 0.2);
+  color: #a78bfa;
+}
+
+.reviewStars {
+  display: flex;
+  gap: 3px;
+  margin-bottom: 10px;
+}
+
+.starFilled {
+  color: #f59e0b;
+  font-size: 16px;
+}
+
+.starEmpty {
+  color: #475569;
+  font-size: 16px;
+}
+
+.reviewTitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #e2e8f0;
+  margin-bottom: 8px;
+}
+
+.reviewContent {
+  color: #94a3b8;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.reviewFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  border-top: 1px solid rgba(59, 130, 246, 0.1);
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.reviewDate {
+  color: #64748b;
+  font-size: 13px;
+}
+
+.reviewActions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.approveBtn {
+  padding: 8px 20px;
+  background: rgba(16, 185, 129, 0.2);
+  color: #10b981;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.approveBtn:hover {
+  background: rgba(16, 185, 129, 0.3);
+  border-color: #10b981;
+}
+
+.rejectBtn {
+  padding: 8px 20px;
+  background: rgba(245, 158, 11, 0.2);
+  color: #f59e0b;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.rejectBtn:hover {
+  background: rgba(245, 158, 11, 0.3);
+  border-color: #f59e0b;
+}
+
+.deleteBtn {
+  padding: 8px 20px;
+  background: rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.deleteBtn:hover {
+  background: rgba(239, 68, 68, 0.3);
+  border-color: #ef4444;
+}
+
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  color: #94a3b8;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(59, 130, 246, 0.3);
+  border-top-color: #3b82f6;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 15px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.emptyState {
+  padding: 80px 20px;
+  text-align: center;
+  color: #64748b;
+  background: rgba(30, 41, 59, 0.8);
+  border-radius: 12px;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.emptyState i {
+  font-size: 48px;
+  margin-bottom: 15px;
+  display: block;
+  color: #475569;
+}
+
+.emptyState p {
+  font-size: 16px;
+}
+
+.accessDenied {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: #e2e8f0;
+  text-align: center;
+  padding: 20px;
+  padding-top: 100px;
+}
+
+.accessDenied h1 {
+  color: #ef4444;
+}
+
+.homeLink {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.message {
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.successMsg {
+  background: rgba(16, 185, 129, 0.2);
+  border: 1px solid rgba(16, 185, 129, 0.5);
+  color: #10b981;
+}
+
+.errorMsg {
+  background: rgba(239, 68, 68, 0.2);
+  border: 1px solid rgba(239, 68, 68, 0.5);
+  color: #ef4444;
+}
+
+.refreshBtn {
+  padding: 10px 20px;
+  background: rgba(59, 130, 246, 0.2);
+  color: #3b82f6;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.refreshBtn:hover {
+  background: rgba(59, 130, 246, 0.3);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+    padding-top: 80px;
+  }
+
+  .header {
+    padding: 15px;
+  }
+
+  .reviewCard {
+    padding: 16px;
+  }
+
+  .reviewActions {
+    width: 100%;
+  }
+
+  .approveBtn, .rejectBtn, .deleteBtn {
+    flex: 1;
+    justify-content: center;
+  }
+
+  .statsRow {
+    gap: 10px;
+  }
+
+  .statCard {
+    flex: 1;
+    min-width: 90px;
+    padding: 15px;
+  }
+}

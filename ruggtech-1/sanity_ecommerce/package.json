@@ -1,0 +1,31 @@
+{
+  "name": "ecommerce",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "RUGGTECH E-commerce Sanity Studio",
+  "main": "package.json",
+  "author": "kashirsnaggs <snaggs.kashir@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "sanity dev",
+    "start": "sanity dev",
+    "build": "sanity build",
+    "deploy": "sanity deploy"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^3.77.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sanity": "^3.77.2",
+    "styled-components": "^6.1.15"
+  },
+  "devDependencies": {
+    "@sanity/eslint-config-studio": "^4.0.0",
+    "eslint": "^8.57.0"
+  }
+}

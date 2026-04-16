@@ -1,0 +1,106 @@
+modules = ["nodejs-20", "web"]
+[agent]
+expertMode = true
+
+[nix]
+channel = "stable-25_05"
+packages = ["jdk17"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Next.js Dev Server"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Sanity Studio"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Expo Mobile Dev"
+
+[[workflows.workflow]]
+name = "Next.js Dev Server"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npm run dev"
+waitForPort = 5000
+
+[workflows.workflow.metadata]
+outputType = "webview"
+
+[[workflows.workflow]]
+name = "Sanity Studio"
+author = "agent"
+
+[workflows.workflow.metadata]
+outputType = "console"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd sanity_ecommerce && npm start -- --port 3333"
+
+[[workflows.workflow]]
+name = "Expo Mobile Dev"
+author = "agent"
+
+[workflows.workflow.metadata]
+outputType = "console"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd ruggtech-mobile && yes | npx expo start --tunnel"
+
+[[ports]]
+localPort = 3333
+externalPort = 3000
+
+[[ports]]
+localPort = 4321
+externalPort = 3001
+
+[[ports]]
+localPort = 5000
+externalPort = 80
+
+[[ports]]
+localPort = 8081
+externalPort = 8081
+
+[[ports]]
+localPort = 8082
+externalPort = 3002
+
+[[ports]]
+localPort = 8083
+externalPort = 5000
+
+[deployment]
+deploymentTarget = "autoscale"
+run = ["npm", "run", "start"]
+build = ["npm", "run", "build"]
+
+[userenv]
+
+[userenv.shared]
+NEXT_PUBLIC_CLERK_SIGN_IN_URL = "/sign-in"
+NEXT_PUBLIC_CLERK_SIGN_UP_URL = "/sign-up"
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL = "/account/"
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL = "/account/"
+NEXT_PUBLIC_SANITY_PROJECT_ID = "pb8lzqs5"
+NEXT_PUBLIC_SANITY_DATASET = "production"
+SMTP_HOST = "smtp.gmail.com"
+SMTP_PORT = "587"
+SMTP_USER = "ruggtech@gmail.com"
+CRON_SECRET = "ruggtech_cron_2024_secure_key"
+NEXT_PUBLIC_SITE_URL = "https://b6448001-bcc6-4308-b5b8-b96697f696f5-00-29ijdezqdu4ag.kirk.replit.dev"
+EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY = "pk_test_b3B0aW11bS1odXNreS04OC5jbGVyay5hY2NvdW50cy5kZXYk"

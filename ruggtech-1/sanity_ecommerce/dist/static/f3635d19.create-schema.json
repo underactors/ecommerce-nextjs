@@ -1,0 +1,7005 @@
+[
+  {
+    "fields": [
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image",
+        "type": "array",
+        "title": "Main Image"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image2",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image3",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image4",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image5",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image6",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour",
+        "type": "array",
+        "title": "Color Variant Images – Color 1"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour2",
+        "type": "array",
+        "title": "Color Variant Images – Color 2"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour3",
+        "type": "array",
+        "title": "Color Variant Images – Color 3"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour4",
+        "type": "array",
+        "title": "Color Variant Images – Color 4"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour5",
+        "type": "array",
+        "title": "Color Variant Images – Color 5"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour6",
+        "type": "array",
+        "title": "Color Variant Images – Color 6"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour7",
+        "type": "array",
+        "title": "Color Variant Images – Color 7"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour8",
+        "type": "array",
+        "title": "Color Variant Images – Color 8"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour9",
+        "type": "array",
+        "title": "Color Variant Images – Color 9"
+      },
+      {
+        "name": "youtubeLink",
+        "type": "string",
+        "title": "YouTube Link"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "description": "Alt text for images.",
+        "name": "imageAlt",
+        "type": "string",
+        "title": "Image SEO Description"
+      },
+      {
+        "options": {
+          "source": "name",
+          "maxLength": 90
+        },
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "custom"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "slug",
+        "type": "slug"
+      },
+      {
+        "name": "price",
+        "type": "number"
+      },
+      {
+        "description": "Original price before discount",
+        "name": "originalPrice",
+        "type": "number"
+      },
+      {
+        "description": "Detailed product description with key features",
+        "name": "details",
+        "type": "text",
+        "title": "Product Details"
+      },
+      {
+        "name": "brand",
+        "type": "string"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Smartphone",
+              "value": "smartphone"
+            },
+            {
+              "title": "Tablet",
+              "value": "tablet"
+            }
+          ]
+        },
+        "name": "deviceType",
+        "type": "string"
+      },
+      {
+        "description": "e.g., 108MP, 64MP + 8MP Ultra Wide",
+        "name": "mainCamera",
+        "type": "string",
+        "title": "Main Camera (MP)"
+      },
+      {
+        "description": "e.g., 32MP, 16MP",
+        "name": "frontCamera",
+        "type": "string",
+        "title": "Front Camera (MP)"
+      },
+      {
+        "description": "e.g., 5000mAh, 10000mAh",
+        "name": "battery",
+        "type": "string",
+        "title": "Battery Capacity (mAh)"
+      },
+      {
+        "description": "e.g., 67W Fast Charging, 33W",
+        "name": "chargingSpeed",
+        "type": "string"
+      },
+      {
+        "description": "e.g., Snapdragon 8 Gen 2, MediaTek Helio G99",
+        "name": "processor",
+        "type": "string"
+      },
+      {
+        "description": "e.g., Android 14, iOS 17",
+        "name": "osVersion",
+        "type": "string",
+        "title": "Operating System"
+      },
+      {
+        "description": "e.g., 6.67\", 10.1\"",
+        "name": "screenSize",
+        "type": "string"
+      },
+      {
+        "description": "e.g., 2400 x 1080 FHD+",
+        "name": "screenResolution",
+        "type": "string"
+      },
+      {
+        "description": "e.g., 120Hz, 90Hz",
+        "name": "refreshRate",
+        "type": "string"
+      },
+      {
+        "initialValue": false,
+        "name": "connectivity5G",
+        "type": "boolean",
+        "title": "5G Support"
+      },
+      {
+        "initialValue": false,
+        "name": "nfc",
+        "type": "boolean",
+        "title": "NFC Support"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "5\"-5.5\"",
+              "value": "5-5.5"
+            },
+            {
+              "title": "5.5\"-6\"",
+              "value": "5.5-6"
+            },
+            {
+              "title": "6\"-6.5\"",
+              "value": "6-6.5"
+            },
+            {
+              "title": "6.5\"-7\"",
+              "value": "6.5-7"
+            }
+          ]
+        },
+        "name": "phoneScreenSize",
+        "type": "string",
+        "title": "Phone Screen Size Range"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "7\"-8\"",
+              "value": "7-8"
+            },
+            {
+              "title": "8\"-10\"",
+              "value": "8-10"
+            },
+            {
+              "title": "10\"-12\"",
+              "value": "10-12"
+            },
+            {
+              "title": "12\"-13\"+",
+              "value": "12-13-plus"
+            }
+          ]
+        },
+        "name": "tabletScreenSize",
+        "type": "string",
+        "title": "Tablet Screen Size Range"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "64GB",
+              "value": "64gb"
+            },
+            {
+              "title": "128GB",
+              "value": "128gb"
+            },
+            {
+              "title": "256GB",
+              "value": "256gb"
+            },
+            {
+              "title": "512GB",
+              "value": "512gb"
+            }
+          ]
+        },
+        "name": "storage",
+        "type": "string",
+        "title": "Storage Filter"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "2GB",
+              "value": "2GB"
+            },
+            {
+              "title": "4GB",
+              "value": "4GB"
+            },
+            {
+              "title": "6GB",
+              "value": "6GB"
+            },
+            {
+              "title": "8GB",
+              "value": "8GB"
+            },
+            {
+              "title": "12GB",
+              "value": "12GB"
+            },
+            {
+              "title": "16GB",
+              "value": "16GB"
+            }
+          ]
+        },
+        "name": "ram",
+        "type": "string",
+        "title": "RAM"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "32GB",
+              "value": "32GB"
+            },
+            {
+              "title": "64GB",
+              "value": "64GB"
+            },
+            {
+              "title": "128GB",
+              "value": "128GB"
+            },
+            {
+              "title": "256GB",
+              "value": "256GB"
+            },
+            {
+              "title": "512GB",
+              "value": "512GB"
+            },
+            {
+              "title": "1TB",
+              "value": "1TB"
+            }
+          ]
+        },
+        "name": "rom",
+        "type": "string",
+        "title": "ROM / Storage"
+      },
+      {
+        "description": "e.g., Up to 1TB via MicroSD",
+        "name": "expandableStorage",
+        "type": "string"
+      },
+      {
+        "description": "e.g., 164.2 x 75.8 x 8.9mm",
+        "name": "dimensions",
+        "type": "string"
+      },
+      {
+        "description": "e.g., 205g",
+        "name": "weight",
+        "type": "string"
+      },
+      {
+        "description": "e.g., Dual Nano SIM",
+        "name": "simType",
+        "type": "string",
+        "title": "SIM Type"
+      },
+      {
+        "description": "e.g., WiFi 6",
+        "name": "wifi",
+        "type": "string",
+        "title": "WiFi"
+      },
+      {
+        "description": "e.g., Bluetooth 5.3",
+        "name": "bluetooth",
+        "type": "string"
+      },
+      {
+        "description": "List of sensors",
+        "name": "sensors",
+        "type": "text"
+      },
+      {
+        "of": [
+          {
+            "fields": [
+              {
+                "description": "e.g., Midnight Black, Forest Green",
+                "name": "name",
+                "type": "string",
+                "title": "Color Name"
+              },
+              {
+                "description": "e.g., #FF0000, #1A1A2E",
+                "name": "hex",
+                "type": "string",
+                "title": "Hex Code"
+              }
+            ],
+            "type": "object"
+          }
+        ],
+        "name": "colors",
+        "type": "array",
+        "title": "Available Colors"
+      },
+      {
+        "description": "Visual feature highlights grid",
+        "of": [
+          {
+            "fields": [
+              {
+                "name": "title",
+                "type": "string",
+                "title": "Highlight Title"
+              },
+              {
+                "name": "subtitle",
+                "type": "string"
+              },
+              {
+                "options": {
+                  "hotspot": true
+                },
+                "name": "image",
+                "type": "image",
+                "title": "Highlight Image"
+              }
+            ],
+            "type": "object"
+          }
+        ],
+        "name": "featureHighlights",
+        "type": "array"
+      },
+      {
+        "description": "e.g., 1 Year Manufacturer Warranty",
+        "name": "warranty",
+        "type": "string"
+      },
+      {
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "whatsInTheBox",
+        "type": "array",
+        "title": "What's In The Box"
+      },
+      {
+        "description": "Enter keywords for better searchability",
+        "name": "keywoards",
+        "type": "text",
+        "title": "Keywords"
+      },
+      {
+        "name": "id",
+        "type": "string"
+      },
+      {
+        "name": "stockQuantity",
+        "type": "number"
+      },
+      {
+        "initialValue": true,
+        "name": "inStock",
+        "type": "boolean"
+      },
+      {
+        "initialValue": false,
+        "name": "featured",
+        "type": "boolean"
+      },
+      {
+        "initialValue": false,
+        "name": "onSale",
+        "type": "boolean"
+      },
+      {
+        "name": "subsubcategory",
+        "type": "string",
+        "title": "SubsubCategory"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "HONG KONG Warehouse",
+              "value": "HK Warehouse"
+            },
+            {
+              "title": "TTD Warehouse",
+              "value": "TT Warehouse"
+            },
+            {
+              "title": "USA Warehouse",
+              "value": "USA Warehouse"
+            },
+            {
+              "title": "WorldWide Shipping",
+              "value": "WorldWide Shipping"
+            }
+          ]
+        },
+        "name": "location",
+        "type": "string",
+        "title": "Item Location"
+      }
+    ],
+    "name": "phone",
+    "type": "document",
+    "title": "Phone & Tablet"
+  },
+  {
+    "fields": [
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image",
+        "type": "array",
+        "title": "Main Image"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image2",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image3",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image4",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image5",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image6",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour",
+        "type": "array",
+        "title": "Color Variant Images – Color 1"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour2",
+        "type": "array",
+        "title": "Color Variant Images – Color 2"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour3",
+        "type": "array",
+        "title": "Color Variant Images – Color 3"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour4",
+        "type": "array",
+        "title": "Color Variant Images – Color 4"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour5",
+        "type": "array",
+        "title": "Color Variant Images – Color 5"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour6",
+        "type": "array",
+        "title": "Color Variant Images – Color 6"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour7",
+        "type": "array",
+        "title": "Color Variant Images – Color 7"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour8",
+        "type": "array",
+        "title": "Color Variant Images – Color 8"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour9",
+        "type": "array",
+        "title": "Color Variant Images – Color 9"
+      },
+      {
+        "name": "youtubeLink",
+        "type": "string",
+        "title": "YouTube Link"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "imageAlt",
+        "type": "string",
+        "title": "Image SEO Description"
+      },
+      {
+        "options": {
+          "source": "name",
+          "maxLength": 90
+        },
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "custom"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "slug",
+        "type": "slug"
+      },
+      {
+        "name": "price",
+        "type": "number"
+      },
+      {
+        "description": "Original price before discount",
+        "name": "originalPrice",
+        "type": "number"
+      },
+      {
+        "description": "Detailed accessory description",
+        "name": "details",
+        "type": "text",
+        "title": "Product Details"
+      },
+      {
+        "name": "brand",
+        "type": "string"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Phone Case",
+              "value": "case"
+            },
+            {
+              "title": "Screen Protector",
+              "value": "screen-protector"
+            },
+            {
+              "title": "Charger",
+              "value": "charger"
+            },
+            {
+              "title": "Cable",
+              "value": "cable"
+            },
+            {
+              "title": "Earbuds / Headphones",
+              "value": "earbuds"
+            },
+            {
+              "title": "Power Bank",
+              "value": "power-bank"
+            },
+            {
+              "title": "Car Mount",
+              "value": "car-mount"
+            },
+            {
+              "title": "Stylus",
+              "value": "stylus"
+            },
+            {
+              "title": "Holder / Stand",
+              "value": "holder"
+            },
+            {
+              "title": "Memory Card",
+              "value": "memory-card"
+            },
+            {
+              "title": "Smartwatch",
+              "value": "smartwatch"
+            },
+            {
+              "title": "Other",
+              "value": "other"
+            }
+          ]
+        },
+        "name": "accessoryType",
+        "type": "string"
+      },
+      {
+        "description": "List of compatible device names (e.g., DOOGEE V Max, iPhone 15)",
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "compatibleDevices",
+        "type": "array"
+      },
+      {
+        "description": "e.g., Silicone, Tempered Glass, Leather, TPU",
+        "name": "material",
+        "type": "string"
+      },
+      {
+        "of": [
+          {
+            "fields": [
+              {
+                "description": "e.g., Midnight Black, Forest Green",
+                "name": "name",
+                "type": "string",
+                "title": "Color Name"
+              },
+              {
+                "description": "e.g., #FF0000, #1A1A2E",
+                "name": "hex",
+                "type": "string",
+                "title": "Hex Code"
+              }
+            ],
+            "type": "object"
+          }
+        ],
+        "name": "colors",
+        "type": "array",
+        "title": "Available Colors"
+      },
+      {
+        "description": "e.g., Bluetooth 5.3, USB-C, Lightning",
+        "name": "connectivity",
+        "type": "string"
+      },
+      {
+        "description": "e.g., 50g, 200g",
+        "name": "weight",
+        "type": "string"
+      },
+      {
+        "description": "e.g., 15cm x 7cm x 1.2cm",
+        "name": "dimensions",
+        "type": "string"
+      },
+      {
+        "name": "warranty",
+        "type": "string"
+      },
+      {
+        "description": "Items included (e.g., 1x Device, USB-C Cable, Charger, Manual)",
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "whatsInTheBox",
+        "type": "array",
+        "title": "What's In The Box"
+      },
+      {
+        "description": "Enter keywords for better searchability",
+        "name": "keywoards",
+        "type": "text",
+        "title": "Keywords"
+      },
+      {
+        "name": "id",
+        "type": "string"
+      },
+      {
+        "name": "stockQuantity",
+        "type": "number"
+      },
+      {
+        "initialValue": true,
+        "name": "inStock",
+        "type": "boolean"
+      },
+      {
+        "initialValue": false,
+        "name": "featured",
+        "type": "boolean"
+      },
+      {
+        "initialValue": false,
+        "name": "onSale",
+        "type": "boolean"
+      },
+      {
+        "name": "subsubcategory",
+        "type": "string",
+        "title": "SubsubCategory"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "HONG KONG Warehouse",
+              "value": "HK Warehouse"
+            },
+            {
+              "title": "TTD Warehouse",
+              "value": "TT Warehouse"
+            },
+            {
+              "title": "USA Warehouse",
+              "value": "USA Warehouse"
+            },
+            {
+              "title": "WorldWide Shipping",
+              "value": "WorldWide Shipping"
+            }
+          ]
+        },
+        "name": "location",
+        "type": "string",
+        "title": "Item Location"
+      },
+      {
+        "description": "Package weight in kilograms for shipping calculation",
+        "name": "shippingWeightKg",
+        "type": "number",
+        "title": "Shipping Weight (kg)"
+      },
+      {
+        "description": "Package length in centimeters",
+        "name": "shippingLengthCm",
+        "type": "number",
+        "title": "Package Length (cm)"
+      },
+      {
+        "description": "Package width in centimeters",
+        "name": "shippingWidthCm",
+        "type": "number",
+        "title": "Package Width (cm)"
+      },
+      {
+        "description": "Package height in centimeters",
+        "name": "shippingHeightCm",
+        "type": "number",
+        "title": "Package Height (cm)"
+      }
+    ],
+    "name": "phoneacc",
+    "type": "document",
+    "title": "Accessory"
+  },
+  {
+    "fields": [
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image2",
+        "type": "array",
+        "title": "Image2"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image3",
+        "type": "array",
+        "title": "Image3"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image4",
+        "type": "array",
+        "title": "Image4"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image5",
+        "type": "array",
+        "title": "Image5"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image6",
+        "type": "array",
+        "title": "Image6"
+      },
+      {
+        "of": [
+          {
+            "fields": [
+              {
+                "description": "e.g., Midnight Black, Forest Green",
+                "name": "name",
+                "type": "string",
+                "title": "Color Name"
+              },
+              {
+                "description": "e.g., #FF0000, #1A1A2E",
+                "name": "hex",
+                "type": "string",
+                "title": "Hex Code"
+              }
+            ],
+            "type": "object"
+          }
+        ],
+        "name": "colors",
+        "type": "array",
+        "title": "Available Colors"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour",
+        "type": "array",
+        "title": "Color Variant Images – Color 1"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour2",
+        "type": "array",
+        "title": "Color Variant Images – Color 2"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour3",
+        "type": "array",
+        "title": "Color Variant Images – Color 3"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour4",
+        "type": "array",
+        "title": "Color Variant Images – Color 4"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour5",
+        "type": "array",
+        "title": "Color Variant Images – Color 5"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour6",
+        "type": "array",
+        "title": "Color Variant Images – Color 6"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour7",
+        "type": "array",
+        "title": "Color Variant Images – Color 7"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour8",
+        "type": "array",
+        "title": "Color Variant Images – Color 8"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour9",
+        "type": "array",
+        "title": "Color Variant Images – Color 9"
+      },
+      {
+        "name": "youtubeLink",
+        "type": "string",
+        "title": "YouTube Link"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "options": {
+          "source": "name",
+          "maxLength": 90
+        },
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "custom"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "slug",
+        "type": "slug"
+      },
+      {
+        "name": "price",
+        "type": "number"
+      },
+      {
+        "name": "details",
+        "type": "text"
+      },
+      {
+        "description": "Items included (e.g., 1x Device, USB-C Cable, Charger, Manual)",
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "whatsInTheBox",
+        "type": "array",
+        "title": "What's In The Box"
+      },
+      {
+        "name": "brand",
+        "type": "string"
+      },
+      {
+        "description": "Enter keywords for better searchability",
+        "name": "keywoards",
+        "type": "text"
+      },
+      {
+        "name": "id",
+        "type": "string"
+      },
+      {
+        "name": "stockQuantity",
+        "type": "number"
+      },
+      {
+        "name": "subsubcategory",
+        "type": "string",
+        "title": "SubsubCategory"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "HONG KONG Warehouse",
+              "value": "HK Warehouse"
+            },
+            {
+              "title": "TTD Warehouse",
+              "value": "TT Warehouse"
+            },
+            {
+              "title": "USA Warehouse",
+              "value": "USA Warehouse"
+            },
+            {
+              "title": "WorldWide Shipping",
+              "value": "WorldWide Shipping"
+            }
+          ]
+        },
+        "name": "location",
+        "type": "string",
+        "title": "Item Location"
+      },
+      {
+        "description": "Package weight in kilograms for shipping calculation",
+        "name": "shippingWeightKg",
+        "type": "number",
+        "title": "Shipping Weight (kg)"
+      },
+      {
+        "description": "Package length in centimeters",
+        "name": "shippingLengthCm",
+        "type": "number",
+        "title": "Package Length (cm)"
+      },
+      {
+        "description": "Package width in centimeters",
+        "name": "shippingWidthCm",
+        "type": "number",
+        "title": "Package Width (cm)"
+      },
+      {
+        "description": "Package height in centimeters",
+        "name": "shippingHeightCm",
+        "type": "number",
+        "title": "Package Height (cm)"
+      }
+    ],
+    "name": "watch",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image",
+        "type": "array",
+        "title": "Main Image"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image2",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image3",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image4",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image5",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image6",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour",
+        "type": "array",
+        "title": "Color Variant Images – Color 1"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour2",
+        "type": "array",
+        "title": "Color Variant Images – Color 2"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour3",
+        "type": "array",
+        "title": "Color Variant Images – Color 3"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour4",
+        "type": "array",
+        "title": "Color Variant Images – Color 4"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour5",
+        "type": "array",
+        "title": "Color Variant Images – Color 5"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour6",
+        "type": "array",
+        "title": "Color Variant Images – Color 6"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour7",
+        "type": "array",
+        "title": "Color Variant Images – Color 7"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour8",
+        "type": "array",
+        "title": "Color Variant Images – Color 8"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour9",
+        "type": "array",
+        "title": "Color Variant Images – Color 9"
+      },
+      {
+        "name": "youtubeLink",
+        "type": "string",
+        "title": "YouTube Link"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "description": "Alt text for images (auto-generated from product name if left empty).",
+        "name": "imageAlt",
+        "type": "string",
+        "title": "Image SEO Description"
+      },
+      {
+        "options": {
+          "source": "name",
+          "maxLength": 90
+        },
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "custom"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "slug",
+        "type": "slug"
+      },
+      {
+        "name": "price",
+        "type": "number"
+      },
+      {
+        "description": "Detailed product description with key features",
+        "name": "details",
+        "type": "text",
+        "title": "Product Details"
+      },
+      {
+        "name": "brand",
+        "type": "string"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "IP68",
+              "value": "ip68"
+            },
+            {
+              "title": "IP69K",
+              "value": "ip69k"
+            },
+            {
+              "title": "MIL-STD-810G",
+              "value": "mil-std"
+            },
+            {
+              "title": "MIL-STD-810H",
+              "value": "mil-std-810h"
+            },
+            {
+              "title": "IP68 + MIL-STD-810G",
+              "value": "ip68-mil-std"
+            },
+            {
+              "title": "IP69K + MIL-STD-810H",
+              "value": "ip69k-mil-std-810h"
+            }
+          ]
+        },
+        "name": "protectionRating",
+        "type": "string"
+      },
+      {
+        "description": "e.g., 6.58\", 6.78\", 10.1\"",
+        "name": "screenSize",
+        "type": "string"
+      },
+      {
+        "description": "e.g., 2408 x 1080 FHD+",
+        "name": "screenResolution",
+        "type": "string"
+      },
+      {
+        "description": "e.g., 200MP, 108MP, 64MP",
+        "name": "mainCamera",
+        "type": "string",
+        "title": "Main Camera (MP)"
+      },
+      {
+        "description": "e.g., 32MP, 16MP",
+        "name": "frontCamera",
+        "type": "string",
+        "title": "Front Camera (MP)"
+      },
+      {
+        "description": "e.g., 20MP Night Vision",
+        "name": "nightVisionCamera",
+        "type": "string",
+        "title": "Night Vision Camera (MP)"
+      },
+      {
+        "description": "e.g., 20500mAh, 10000mAh",
+        "name": "battery",
+        "type": "string",
+        "title": "Battery Capacity (mAh)"
+      },
+      {
+        "description": "e.g., 45W Fast Charging, 33W",
+        "name": "chargingSpeed",
+        "type": "string"
+      },
+      {
+        "description": "e.g., MediaTek Dimensity 7300 5G Octa-Core",
+        "name": "processor",
+        "type": "string"
+      },
+      {
+        "description": "e.g., Android 14, Android 15",
+        "name": "osVersion",
+        "type": "string",
+        "title": "Operating System"
+      },
+      {
+        "initialValue": false,
+        "name": "connectivity5G",
+        "type": "boolean",
+        "title": "5G Support"
+      },
+      {
+        "initialValue": false,
+        "name": "nfc",
+        "type": "boolean",
+        "title": "NFC Support"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Thermal/Infrared Camera",
+              "value": "thermal-infrared"
+            },
+            {
+              "title": "Night Vision",
+              "value": "night-vision"
+            },
+            {
+              "title": "FLIR",
+              "value": "flir"
+            },
+            {
+              "title": "Projector",
+              "value": "projector"
+            },
+            {
+              "title": "Dual Camping Lights",
+              "value": "camping-lights"
+            },
+            {
+              "title": "Laser Rangefinder",
+              "value": "laser-rangefinder"
+            },
+            {
+              "title": "Walkie-Talkie",
+              "value": "walkie-talkie"
+            },
+            {
+              "title": "Fingerprint Scanner",
+              "value": "fingerprint"
+            },
+            {
+              "title": "Face Unlock",
+              "value": "face-unlock"
+            },
+            {
+              "title": "Wireless Charging",
+              "value": "wireless-charging"
+            },
+            {
+              "title": "Reverse Charging",
+              "value": "reverse-charging"
+            },
+            {
+              "title": "Underwater Camera",
+              "value": "underwater-camera"
+            },
+            {
+              "title": "Barometer",
+              "value": "barometer"
+            },
+            {
+              "title": "FM Radio",
+              "value": "fm-radio"
+            }
+          ]
+        },
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "features",
+        "type": "array",
+        "title": "Special Features"
+      },
+      {
+        "description": "Visual feature highlights grid (like battery, camera, projector sections)",
+        "of": [
+          {
+            "fields": [
+              {
+                "description": "e.g., 20,500mAh",
+                "name": "title",
+                "type": "string",
+                "title": "Highlight Title"
+              },
+              {
+                "description": "e.g., Mega Battery",
+                "name": "subtitle",
+                "type": "string"
+              },
+              {
+                "options": {
+                  "hotspot": true
+                },
+                "name": "image",
+                "type": "image",
+                "title": "Highlight Image"
+              }
+            ],
+            "type": "object"
+          }
+        ],
+        "name": "featureHighlights",
+        "type": "array"
+      },
+      {
+        "description": "e.g., 178.6 x 82.8 x 15.5mm",
+        "name": "dimensions",
+        "type": "string"
+      },
+      {
+        "description": "e.g., 398g",
+        "name": "weight",
+        "type": "string"
+      },
+      {
+        "description": "e.g., Dual Nano SIM",
+        "name": "simType",
+        "type": "string",
+        "title": "SIM Type"
+      },
+      {
+        "description": "Supported network bands (2G/3G/4G/5G)",
+        "name": "networkBands",
+        "type": "text"
+      },
+      {
+        "description": "e.g., WiFi 6, 802.11 a/b/g/n/ac/ax",
+        "name": "wifi",
+        "type": "string",
+        "title": "WiFi"
+      },
+      {
+        "description": "e.g., Bluetooth 5.3",
+        "name": "bluetooth",
+        "type": "string"
+      },
+      {
+        "description": "List of sensors (Gyroscope, Accelerometer, etc.)",
+        "name": "sensors",
+        "type": "text"
+      },
+      {
+        "name": "id",
+        "type": "string"
+      },
+      {
+        "description": "Enter keywords for better searchability",
+        "name": "keywoards",
+        "type": "text",
+        "title": "Keywords"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "2GB",
+              "value": "2GB"
+            },
+            {
+              "title": "4GB",
+              "value": "4GB"
+            },
+            {
+              "title": "6GB",
+              "value": "6GB"
+            },
+            {
+              "title": "8GB",
+              "value": "8GB"
+            },
+            {
+              "title": "12GB",
+              "value": "12GB"
+            },
+            {
+              "title": "16GB",
+              "value": "16GB"
+            },
+            {
+              "title": "24GB",
+              "value": "24GB"
+            }
+          ]
+        },
+        "name": "ram",
+        "type": "string",
+        "title": "RAM"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "32GB",
+              "value": "32GB"
+            },
+            {
+              "title": "64GB",
+              "value": "64GB"
+            },
+            {
+              "title": "128GB",
+              "value": "128GB"
+            },
+            {
+              "title": "256GB",
+              "value": "256GB"
+            },
+            {
+              "title": "512GB",
+              "value": "512GB"
+            },
+            {
+              "title": "1TB",
+              "value": "1TB"
+            }
+          ]
+        },
+        "name": "rom",
+        "type": "string",
+        "title": "ROM / Storage"
+      },
+      {
+        "description": "e.g., Up to 2TB via MicroSD",
+        "name": "expandableStorage",
+        "type": "string"
+      },
+      {
+        "of": [
+          {
+            "fields": [
+              {
+                "description": "e.g., Midnight Black, Forest Green",
+                "name": "name",
+                "type": "string",
+                "title": "Color Name"
+              },
+              {
+                "description": "e.g., #FF0000, #1A1A2E",
+                "name": "hex",
+                "type": "string",
+                "title": "Hex Code"
+              }
+            ],
+            "type": "object"
+          }
+        ],
+        "name": "colors",
+        "type": "array",
+        "title": "Available Colors"
+      },
+      {
+        "name": "stockQuantity",
+        "type": "number"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "HONG KONG Warehouse",
+              "value": "HK Warehouse"
+            },
+            {
+              "title": "TTD Warehouse",
+              "value": "TT Warehouse"
+            },
+            {
+              "title": "USA Warehouse",
+              "value": "USA Warehouse"
+            },
+            {
+              "title": "WorldWide Shipping",
+              "value": "WorldWide Shipping"
+            }
+          ]
+        },
+        "name": "location",
+        "type": "string",
+        "title": "Item Location"
+      },
+      {
+        "name": "categories",
+        "type": "string"
+      },
+      {
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "subcategories",
+        "type": "array"
+      },
+      {
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "subsubcategories",
+        "type": "array",
+        "title": "Sub-subcategories"
+      },
+      {
+        "description": "Original price before discount (leave empty if no discount)",
+        "name": "originalPrice",
+        "type": "number"
+      },
+      {
+        "initialValue": false,
+        "name": "featured",
+        "type": "boolean"
+      },
+      {
+        "initialValue": false,
+        "name": "onSale",
+        "type": "boolean"
+      },
+      {
+        "initialValue": true,
+        "name": "inStock",
+        "type": "boolean"
+      },
+      {
+        "description": "e.g., 1 Year Manufacturer Warranty",
+        "name": "warranty",
+        "type": "string"
+      },
+      {
+        "description": "Items included (Phone, Charger, USB Cable, etc.)",
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "whatsInTheBox",
+        "type": "array",
+        "title": "What's In The Box"
+      },
+      {
+        "description": "Package weight in kilograms for shipping calculation",
+        "name": "shippingWeightKg",
+        "type": "number",
+        "title": "Shipping Weight (kg)"
+      },
+      {
+        "description": "Package length in centimeters",
+        "name": "shippingLengthCm",
+        "type": "number",
+        "title": "Package Length (cm)"
+      },
+      {
+        "description": "Package width in centimeters",
+        "name": "shippingWidthCm",
+        "type": "number",
+        "title": "Package Width (cm)"
+      },
+      {
+        "description": "Package height in centimeters",
+        "name": "shippingHeightCm",
+        "type": "number",
+        "title": "Package Height (cm)"
+      }
+    ],
+    "name": "product",
+    "type": "document",
+    "title": "Rugged Device"
+  },
+  {
+    "fields": [
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image2",
+        "type": "array",
+        "title": "Image2"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image3",
+        "type": "array",
+        "title": "Image3"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image4",
+        "type": "array",
+        "title": "Image4"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image5",
+        "type": "array",
+        "title": "Image5"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image6",
+        "type": "array",
+        "title": "Image6"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour",
+        "type": "array",
+        "title": "Color Variant Images – Color 1"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour2",
+        "type": "array",
+        "title": "Color Variant Images – Color 2"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour3",
+        "type": "array",
+        "title": "Color Variant Images – Color 3"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour4",
+        "type": "array",
+        "title": "Color Variant Images – Color 4"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour5",
+        "type": "array",
+        "title": "Color Variant Images – Color 5"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour6",
+        "type": "array",
+        "title": "Color Variant Images – Color 6"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour7",
+        "type": "array",
+        "title": "Color Variant Images – Color 7"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour8",
+        "type": "array",
+        "title": "Color Variant Images – Color 8"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour9",
+        "type": "array",
+        "title": "Color Variant Images – Color 9"
+      },
+      {
+        "name": "youtubeLink",
+        "type": "string",
+        "title": "YouTube Link"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "options": {
+          "source": "name",
+          "maxLength": 90
+        },
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "custom"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "slug",
+        "type": "slug"
+      },
+      {
+        "name": "price",
+        "type": "number"
+      },
+      {
+        "name": "details",
+        "type": "text"
+      },
+      {
+        "description": "Items included (e.g., 1x Device, USB-C Cable, Charger, Manual)",
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "whatsInTheBox",
+        "type": "array",
+        "title": "What's In The Box"
+      },
+      {
+        "name": "brand",
+        "type": "string"
+      },
+      {
+        "description": "Enter keywords for better searchability",
+        "name": "keywoards",
+        "type": "text"
+      },
+      {
+        "name": "id",
+        "type": "string"
+      },
+      {
+        "of": [
+          {
+            "fields": [
+              {
+                "description": "e.g., Midnight Black, Forest Green",
+                "name": "name",
+                "type": "string",
+                "title": "Color Name"
+              },
+              {
+                "description": "e.g., #FF0000, #1A1A2E",
+                "name": "hex",
+                "type": "string",
+                "title": "Hex Code"
+              }
+            ],
+            "type": "object"
+          }
+        ],
+        "name": "colors",
+        "type": "array",
+        "title": "Available Colors"
+      },
+      {
+        "name": "stockQuantity",
+        "type": "number"
+      },
+      {
+        "name": "subsubcategory",
+        "type": "string",
+        "title": "SubsubCategory"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "HONG KONG Warehouse",
+              "value": "HK Warehouse"
+            },
+            {
+              "title": "TTD Warehouse",
+              "value": "TT Warehouse"
+            },
+            {
+              "title": "USA Warehouse",
+              "value": "USA Warehouse"
+            },
+            {
+              "title": "WorldWide Shipping",
+              "value": "WorldWide Shipping"
+            }
+          ]
+        },
+        "name": "location",
+        "type": "string",
+        "title": "Item Location"
+      },
+      {
+        "description": "Package weight in kilograms for shipping calculation",
+        "name": "shippingWeightKg",
+        "type": "number",
+        "title": "Shipping Weight (kg)"
+      },
+      {
+        "description": "Package length in centimeters",
+        "name": "shippingLengthCm",
+        "type": "number",
+        "title": "Package Length (cm)"
+      },
+      {
+        "description": "Package width in centimeters",
+        "name": "shippingWidthCm",
+        "type": "number",
+        "title": "Package Width (cm)"
+      },
+      {
+        "description": "Package height in centimeters",
+        "name": "shippingHeightCm",
+        "type": "number",
+        "title": "Package Height (cm)"
+      }
+    ],
+    "name": "product2",
+    "type": "document",
+    "title": "Headset"
+  },
+  {
+    "fields": [
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image2",
+        "type": "array",
+        "title": "Image2"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image3",
+        "type": "array",
+        "title": "Image3"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image4",
+        "type": "array",
+        "title": "Image4"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image5",
+        "type": "array",
+        "title": "Image5"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image6",
+        "type": "array",
+        "title": "Image6"
+      },
+      {
+        "of": [
+          {
+            "fields": [
+              {
+                "description": "e.g., Midnight Black, Forest Green",
+                "name": "name",
+                "type": "string",
+                "title": "Color Name"
+              },
+              {
+                "description": "e.g., #FF0000, #1A1A2E",
+                "name": "hex",
+                "type": "string",
+                "title": "Hex Code"
+              }
+            ],
+            "type": "object"
+          }
+        ],
+        "name": "colors",
+        "type": "array",
+        "title": "Available Colors"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour",
+        "type": "array",
+        "title": "Color Variant Images – Color 1"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour2",
+        "type": "array",
+        "title": "Color Variant Images – Color 2"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour3",
+        "type": "array",
+        "title": "Color Variant Images – Color 3"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour4",
+        "type": "array",
+        "title": "Color Variant Images – Color 4"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour5",
+        "type": "array",
+        "title": "Color Variant Images – Color 5"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour6",
+        "type": "array",
+        "title": "Color Variant Images – Color 6"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour7",
+        "type": "array",
+        "title": "Color Variant Images – Color 7"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour8",
+        "type": "array",
+        "title": "Color Variant Images – Color 8"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour9",
+        "type": "array",
+        "title": "Color Variant Images – Color 9"
+      },
+      {
+        "name": "youtubeLink",
+        "type": "string",
+        "title": "YouTube Link"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "options": {
+          "source": "name",
+          "maxLength": 90
+        },
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "custom"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "slug",
+        "type": "slug"
+      },
+      {
+        "name": "price",
+        "type": "number"
+      },
+      {
+        "name": "details",
+        "type": "text"
+      },
+      {
+        "description": "Items included (e.g., 1x Device, USB-C Cable, Charger, Manual)",
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "whatsInTheBox",
+        "type": "array",
+        "title": "What's In The Box"
+      },
+      {
+        "name": "brand",
+        "type": "string"
+      },
+      {
+        "description": "Enter keywords for better searchability",
+        "name": "keywoards",
+        "type": "text"
+      },
+      {
+        "name": "id",
+        "type": "string"
+      },
+      {
+        "name": "stockQuantity",
+        "type": "number"
+      },
+      {
+        "name": "subsubcategory",
+        "type": "string",
+        "title": "SubsubCategory"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "HONG KONG Warehouse",
+              "value": "HK Warehouse"
+            },
+            {
+              "title": "TTD Warehouse",
+              "value": "TT Warehouse"
+            },
+            {
+              "title": "USA Warehouse",
+              "value": "USA Warehouse"
+            },
+            {
+              "title": "WorldWide Shipping",
+              "value": "WorldWide Shipping"
+            }
+          ]
+        },
+        "name": "location",
+        "type": "string",
+        "title": "Item Location"
+      },
+      {
+        "description": "Package weight in kilograms for shipping calculation",
+        "name": "shippingWeightKg",
+        "type": "number",
+        "title": "Shipping Weight (kg)"
+      },
+      {
+        "description": "Package length in centimeters",
+        "name": "shippingLengthCm",
+        "type": "number",
+        "title": "Package Length (cm)"
+      },
+      {
+        "description": "Package width in centimeters",
+        "name": "shippingWidthCm",
+        "type": "number",
+        "title": "Package Width (cm)"
+      },
+      {
+        "description": "Package height in centimeters",
+        "name": "shippingHeightCm",
+        "type": "number",
+        "title": "Package Height (cm)"
+      }
+    ],
+    "name": "electronic",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "options": {
+          "hotspot": true
+        },
+        "name": "image",
+        "type": "image"
+      },
+      {
+        "name": "buttonText",
+        "type": "string",
+        "title": "ButtonText"
+      },
+      {
+        "name": "product",
+        "type": "string"
+      },
+      {
+        "name": "desc",
+        "type": "string"
+      },
+      {
+        "name": "smallText",
+        "type": "string",
+        "title": "SmallText"
+      },
+      {
+        "name": "midText",
+        "type": "string",
+        "title": "MidText"
+      },
+      {
+        "name": "largeText1",
+        "type": "string",
+        "title": "LargeText1"
+      },
+      {
+        "name": "largeText2",
+        "type": "string",
+        "title": "LargeText2"
+      },
+      {
+        "name": "discount",
+        "type": "string"
+      },
+      {
+        "name": "saleTime",
+        "type": "string",
+        "title": "SaleTime"
+      },
+      {
+        "name": "link",
+        "type": "string"
+      }
+    ],
+    "name": "banner",
+    "type": "document"
+  },
+  {
+    "initialValue": {
+      "publishedAt": "2026-04-14T03:32:45.474Z"
+    },
+    "fields": [
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "options": {
+          "source": "title",
+          "maxLength": 200
+        },
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "custom"
+              },
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "slug",
+        "type": "slug"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "author",
+        "type": "string"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "publishedAt",
+        "type": "datetime"
+      },
+      {
+        "name": "excerpt",
+        "type": "text"
+      },
+      {
+        "of": [
+          {
+            "marks": {
+              "annotations": [
+                {
+                  "i18nTitleKey": "inputs.portable-text.annotation.link",
+                  "options": {
+                    "modal": {
+                      "type": "popover"
+                    }
+                  },
+                  "fields": [
+                    {
+                      "validation": [
+                        {
+                          "rules": [
+                            {
+                              "flag": "uri",
+                              "constraint": {
+                                "options": {
+                                  "scheme": [
+                                    "/^http$/",
+                                    "/^https$/",
+                                    "/^tel$/",
+                                    "/^mailto$/"
+                                  ],
+                                  "allowRelative": true,
+                                  "relativeOnly": false,
+                                  "allowCredentials": false
+                                }
+                              }
+                            }
+                          ],
+                          "level": "error"
+                        }
+                      ],
+                      "description": "A valid web, email, phone, or relative link.",
+                      "name": "href",
+                      "type": "url",
+                      "title": "Link"
+                    }
+                  ],
+                  "name": "link",
+                  "type": "object"
+                }
+              ],
+              "decorators": [
+                {
+                  "value": "strong",
+                  "title": "Strong"
+                },
+                {
+                  "value": "em",
+                  "title": "Italic"
+                },
+                {
+                  "value": "code",
+                  "title": "Code"
+                },
+                {
+                  "value": "underline",
+                  "title": "Underline"
+                },
+                {
+                  "value": "strike-through",
+                  "title": "Strike"
+                }
+              ]
+            },
+            "lists": [
+              {
+                "value": "bullet",
+                "title": "Bulleted list"
+              },
+              {
+                "value": "number",
+                "title": "Numbered list"
+              }
+            ],
+            "styles": [
+              {
+                "value": "normal",
+                "title": "Normal"
+              },
+              {
+                "value": "h1",
+                "title": "Heading 1"
+              },
+              {
+                "value": "h2",
+                "title": "Heading 2"
+              },
+              {
+                "value": "h3",
+                "title": "Heading 3"
+              },
+              {
+                "value": "h4",
+                "title": "Heading 4"
+              },
+              {
+                "value": "h5",
+                "title": "Heading 5"
+              },
+              {
+                "value": "h6",
+                "title": "Heading 6"
+              },
+              {
+                "value": "blockquote",
+                "title": "Quote"
+              }
+            ],
+            "of": [],
+            "type": "block"
+          }
+        ],
+        "name": "content",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "name": "image",
+        "type": "image"
+      },
+      {
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "tags",
+        "type": "array"
+      }
+    ],
+    "name": "blogPost",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image",
+        "type": "array",
+        "title": "Main Image"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image2",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image3",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image4",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image5",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image6",
+        "type": "array"
+      },
+      {
+        "of": [
+          {
+            "fields": [
+              {
+                "description": "e.g., Midnight Black, Forest Green",
+                "name": "name",
+                "type": "string",
+                "title": "Color Name"
+              },
+              {
+                "description": "e.g., #FF0000, #1A1A2E",
+                "name": "hex",
+                "type": "string",
+                "title": "Hex Code"
+              }
+            ],
+            "type": "object"
+          }
+        ],
+        "name": "colors",
+        "type": "array",
+        "title": "Available Colors"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour",
+        "type": "array",
+        "title": "Color Variant Images – Color 1"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour2",
+        "type": "array",
+        "title": "Color Variant Images – Color 2"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour3",
+        "type": "array",
+        "title": "Color Variant Images – Color 3"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour4",
+        "type": "array",
+        "title": "Color Variant Images – Color 4"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour5",
+        "type": "array",
+        "title": "Color Variant Images – Color 5"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour6",
+        "type": "array",
+        "title": "Color Variant Images – Color 6"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour7",
+        "type": "array",
+        "title": "Color Variant Images – Color 7"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour8",
+        "type": "array",
+        "title": "Color Variant Images – Color 8"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "imagecolour9",
+        "type": "array",
+        "title": "Color Variant Images – Color 9"
+      },
+      {
+        "name": "youtubeLink",
+        "type": "string",
+        "title": "YouTube Link"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "title": "Part Name"
+      },
+      {
+        "description": "Alt text for images.",
+        "name": "imageAlt",
+        "type": "string",
+        "title": "Image SEO Description"
+      },
+      {
+        "options": {
+          "source": "name",
+          "maxLength": 90
+        },
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "custom"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "slug",
+        "type": "slug"
+      },
+      {
+        "name": "price",
+        "type": "number"
+      },
+      {
+        "description": "Original price before discount",
+        "name": "originalPrice",
+        "type": "number"
+      },
+      {
+        "description": "Detailed part description",
+        "name": "details",
+        "type": "text",
+        "title": "Product Details"
+      },
+      {
+        "name": "brand",
+        "type": "string"
+      },
+      {
+        "description": "Manufacturer part number for cross-referencing",
+        "name": "partNumber",
+        "type": "string",
+        "title": "Part Number / OEM Number"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Suzuki",
+              "value": "suzuki"
+            }
+          ]
+        },
+        "initialValue": "suzuki",
+        "name": "vehicleMake",
+        "type": "string"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Jimny",
+              "value": "jimny"
+            },
+            {
+              "title": "Grand Vitara",
+              "value": "grand-vitara"
+            },
+            {
+              "title": "Vitara",
+              "value": "vitara"
+            },
+            {
+              "title": "Swift",
+              "value": "swift"
+            },
+            {
+              "title": "Alto",
+              "value": "alto"
+            },
+            {
+              "title": "SX4",
+              "value": "sx4"
+            },
+            {
+              "title": "Samurai",
+              "value": "samurai"
+            },
+            {
+              "title": "Universal / Multiple",
+              "value": "universal"
+            }
+          ]
+        },
+        "name": "vehicleModel",
+        "type": "string"
+      },
+      {
+        "description": "Starting year of compatibility (e.g., 2006)",
+        "name": "yearFrom",
+        "type": "number"
+      },
+      {
+        "description": "Ending year of compatibility (e.g., 2013)",
+        "name": "yearTo",
+        "type": "number"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "2019-2024",
+              "value": "2019-2024"
+            },
+            {
+              "title": "2012-2018",
+              "value": "2012-2018"
+            },
+            {
+              "title": "2006-2011",
+              "value": "2006-2011"
+            },
+            {
+              "title": "1998-2005",
+              "value": "1998-2005"
+            }
+          ]
+        },
+        "name": "year",
+        "type": "string",
+        "title": "Year Range (Legacy)"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Engine",
+              "value": "engine"
+            },
+            {
+              "title": "Suspension",
+              "value": "suspension"
+            },
+            {
+              "title": "Body & Exterior",
+              "value": "body-exterior"
+            },
+            {
+              "title": "Interior",
+              "value": "interior"
+            },
+            {
+              "title": "Brakes",
+              "value": "brakes"
+            },
+            {
+              "title": "Electrical",
+              "value": "electrical"
+            },
+            {
+              "title": "Transmission",
+              "value": "transmission"
+            },
+            {
+              "title": "Exhaust",
+              "value": "exhaust"
+            },
+            {
+              "title": "Cooling System",
+              "value": "cooling"
+            },
+            {
+              "title": "Steering",
+              "value": "steering"
+            },
+            {
+              "title": "Lights & Lamps",
+              "value": "lights"
+            },
+            {
+              "title": "Wheels & Tires",
+              "value": "wheels"
+            },
+            {
+              "title": "Accessories",
+              "value": "accessories"
+            }
+          ]
+        },
+        "name": "partCategory",
+        "type": "string"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "OEM (Original)",
+              "value": "oem"
+            },
+            {
+              "title": "Aftermarket",
+              "value": "aftermarket"
+            },
+            {
+              "title": "Refurbished",
+              "value": "refurbished"
+            },
+            {
+              "title": "Used - Excellent",
+              "value": "used-excellent"
+            },
+            {
+              "title": "Used - Good",
+              "value": "used-good"
+            }
+          ]
+        },
+        "name": "condition",
+        "type": "string"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Front",
+              "value": "front"
+            },
+            {
+              "title": "Rear",
+              "value": "rear"
+            },
+            {
+              "title": "Left",
+              "value": "left"
+            },
+            {
+              "title": "Right",
+              "value": "right"
+            },
+            {
+              "title": "Front Left",
+              "value": "front-left"
+            },
+            {
+              "title": "Front Right",
+              "value": "front-right"
+            },
+            {
+              "title": "Rear Left",
+              "value": "rear-left"
+            },
+            {
+              "title": "Rear Right",
+              "value": "rear-right"
+            },
+            {
+              "title": "Top",
+              "value": "top"
+            },
+            {
+              "title": "Bottom / Undercarriage",
+              "value": "bottom"
+            },
+            {
+              "title": "Interior",
+              "value": "interior"
+            },
+            {
+              "title": "Engine Bay",
+              "value": "engine-bay"
+            },
+            {
+              "title": "Universal",
+              "value": "universal"
+            }
+          ]
+        },
+        "description": "Where on the vehicle this part is installed",
+        "name": "placement",
+        "type": "string",
+        "title": "Placement on Vehicle"
+      },
+      {
+        "description": "Important installation or compatibility notes",
+        "name": "fitmentNotes",
+        "type": "text"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Easy (DIY)",
+              "value": "easy"
+            },
+            {
+              "title": "Medium (Some Tools Required)",
+              "value": "medium"
+            },
+            {
+              "title": "Hard (Professional Recommended)",
+              "value": "hard"
+            }
+          ]
+        },
+        "name": "installationDifficulty",
+        "type": "string"
+      },
+      {
+        "description": "e.g., Steel, Aluminum, Plastic, Rubber",
+        "name": "material",
+        "type": "string"
+      },
+      {
+        "description": "e.g., 2.5 kg",
+        "name": "weight",
+        "type": "string"
+      },
+      {
+        "description": "e.g., 30cm x 20cm x 15cm",
+        "name": "dimensions",
+        "type": "string"
+      },
+      {
+        "description": "e.g., 6 Months, 1 Year",
+        "name": "warranty",
+        "type": "string"
+      },
+      {
+        "description": "Items included (e.g., 1x Device, USB-C Cable, Charger, Manual)",
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "whatsInTheBox",
+        "type": "array",
+        "title": "What's In The Box"
+      },
+      {
+        "initialValue": 1,
+        "description": "Number of pieces included (e.g., 2 for a pair)",
+        "name": "quantityPerPack",
+        "type": "number"
+      },
+      {
+        "description": "Alternative part numbers from other brands",
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "crossReference",
+        "type": "array",
+        "title": "Cross Reference Numbers"
+      },
+      {
+        "description": "Enter keywords for better searchability",
+        "name": "keywoards",
+        "type": "text",
+        "title": "Keywords"
+      },
+      {
+        "name": "id",
+        "type": "string"
+      },
+      {
+        "name": "stockQuantity",
+        "type": "number"
+      },
+      {
+        "name": "subsubcategory",
+        "type": "string",
+        "title": "SubsubCategory"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "HONG KONG Warehouse",
+              "value": "HK Warehouse"
+            },
+            {
+              "title": "TTD Warehouse",
+              "value": "TT Warehouse"
+            },
+            {
+              "title": "USA Warehouse",
+              "value": "USA Warehouse"
+            },
+            {
+              "title": "WorldWide Shipping",
+              "value": "WorldWide Shipping"
+            }
+          ]
+        },
+        "name": "location",
+        "type": "string",
+        "title": "Item Location"
+      },
+      {
+        "initialValue": false,
+        "name": "featured",
+        "type": "boolean"
+      },
+      {
+        "initialValue": false,
+        "name": "onSale",
+        "type": "boolean"
+      },
+      {
+        "initialValue": true,
+        "name": "inStock",
+        "type": "boolean"
+      },
+      {
+        "description": "Package weight in kilograms for shipping calculation",
+        "name": "shippingWeightKg",
+        "type": "number",
+        "title": "Shipping Weight (kg)"
+      },
+      {
+        "description": "Package length in centimeters",
+        "name": "shippingLengthCm",
+        "type": "number",
+        "title": "Package Length (cm)"
+      },
+      {
+        "description": "Package width in centimeters",
+        "name": "shippingWidthCm",
+        "type": "number",
+        "title": "Package Width (cm)"
+      },
+      {
+        "description": "Package height in centimeters",
+        "name": "shippingHeightCm",
+        "type": "number",
+        "title": "Package Height (cm)"
+      }
+    ],
+    "name": "car",
+    "type": "document",
+    "title": "Suzuki Part"
+  },
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "orderId",
+        "type": "string",
+        "title": "Order ID"
+      },
+      {
+        "description": "Clerk user ID for querying orders",
+        "name": "userId",
+        "type": "string",
+        "title": "User ID (Clerk)"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "customerEmail",
+        "type": "string"
+      },
+      {
+        "name": "customerName",
+        "type": "string"
+      },
+      {
+        "name": "customerPhone",
+        "type": "string"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Credit Card",
+              "value": "credit_card"
+            },
+            {
+              "title": "PayPal",
+              "value": "paypal"
+            },
+            {
+              "title": "Google Pay",
+              "value": "google_pay"
+            }
+          ]
+        },
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "valid",
+                "constraint": [
+                  "credit_card",
+                  "paypal",
+                  "google_pay"
+                ]
+              },
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "paymentMethod",
+        "type": "string"
+      },
+      {
+        "fields": [
+          {
+            "name": "cardLastFour",
+            "type": "string",
+            "title": "Card Last Four Digits"
+          },
+          {
+            "name": "cardName",
+            "type": "string",
+            "title": "Name on Card"
+          },
+          {
+            "name": "paypalTransactionId",
+            "type": "string",
+            "title": "PayPal Transaction ID"
+          },
+          {
+            "name": "paypalPayerId",
+            "type": "string",
+            "title": "PayPal Payer ID"
+          },
+          {
+            "name": "paypalEmail",
+            "type": "string",
+            "title": "PayPal Email"
+          }
+        ],
+        "name": "paymentDetails",
+        "type": "object"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              },
+              {
+                "flag": "min",
+                "constraint": 1
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "of": [
+          {
+            "fields": [
+              {
+                "name": "id",
+                "type": "string",
+                "title": "Product ID"
+              },
+              {
+                "name": "name",
+                "type": "string",
+                "title": "Product Name"
+              },
+              {
+                "name": "price",
+                "type": "number",
+                "title": "Unit Price"
+              },
+              {
+                "name": "quantity",
+                "type": "number"
+              },
+              {
+                "name": "total",
+                "type": "number",
+                "title": "Item Total"
+              },
+              {
+                "name": "imageUrl",
+                "type": "string",
+                "title": "Product Image URL"
+              },
+              {
+                "name": "slug",
+                "type": "string",
+                "title": "Product Slug"
+              },
+              {
+                "name": "productType",
+                "type": "string"
+              },
+              {
+                "name": "color",
+                "type": "string",
+                "title": "Selected Color"
+              }
+            ],
+            "type": "object"
+          }
+        ],
+        "name": "items",
+        "type": "array",
+        "title": "Order Items"
+      },
+      {
+        "fields": [
+          {
+            "name": "fullName",
+            "type": "string"
+          },
+          {
+            "name": "address",
+            "type": "string"
+          },
+          {
+            "name": "city",
+            "type": "string"
+          },
+          {
+            "name": "state",
+            "type": "string"
+          },
+          {
+            "name": "zipCode",
+            "type": "string",
+            "title": "ZIP Code"
+          },
+          {
+            "name": "country",
+            "type": "string"
+          }
+        ],
+        "name": "shippingAddress",
+        "type": "object"
+      },
+      {
+        "fields": [
+          {
+            "name": "address",
+            "type": "string"
+          },
+          {
+            "name": "city",
+            "type": "string"
+          },
+          {
+            "name": "state",
+            "type": "string"
+          },
+          {
+            "name": "zipCode",
+            "type": "string",
+            "title": "ZIP Code"
+          },
+          {
+            "name": "country",
+            "type": "string"
+          }
+        ],
+        "name": "billingAddress",
+        "type": "object"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              },
+              {
+                "flag": "min",
+                "constraint": 0
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "subtotal",
+        "type": "number"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              },
+              {
+                "flag": "min",
+                "constraint": 0
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "tax",
+        "type": "number",
+        "title": "Tax Amount"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              },
+              {
+                "flag": "min",
+                "constraint": 0
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "shipping",
+        "type": "number",
+        "title": "Shipping Cost"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              },
+              {
+                "flag": "min",
+                "constraint": 0
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "total",
+        "type": "number",
+        "title": "Total Amount"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Pending",
+              "value": "pending"
+            },
+            {
+              "title": "Processing",
+              "value": "processing"
+            },
+            {
+              "title": "Shipped",
+              "value": "shipped"
+            },
+            {
+              "title": "Delivered",
+              "value": "delivered"
+            },
+            {
+              "title": "Cancelled",
+              "value": "cancelled"
+            },
+            {
+              "title": "Completed",
+              "value": "completed"
+            },
+            {
+              "title": "Failed",
+              "value": "failed"
+            }
+          ]
+        },
+        "initialValue": "pending",
+        "name": "status",
+        "type": "string",
+        "title": "Order Status"
+      },
+      {
+        "name": "trackingNumber",
+        "type": "string"
+      },
+      {
+        "name": "notes",
+        "type": "text",
+        "title": "Order Notes"
+      },
+      {
+        "name": "createdAt",
+        "type": "datetime"
+      },
+      {
+        "name": "updatedAt",
+        "type": "datetime"
+      }
+    ],
+    "name": "order",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              },
+              {
+                "flag": "min",
+                "constraint": 5
+              },
+              {
+                "flag": "max",
+                "constraint": 100
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "description": "The main product name (e.g., \"John Deere X350 Lawn Tractor\")",
+        "name": "name",
+        "type": "string",
+        "title": "Product Name"
+      },
+      {
+        "description": "Alt text for images (auto-generated from product name if left empty). Used for SEO and accessibility.",
+        "name": "imageAlt",
+        "type": "string",
+        "title": "Image SEO Description"
+      },
+      {
+        "options": {
+          "source": "name",
+          "maxLength": 96
+        },
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "custom"
+              },
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "description": "URL-friendly version of the product name",
+        "name": "slug",
+        "type": "slug",
+        "title": "URL Slug"
+      },
+      {
+        "rows": 4,
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "max",
+                "constraint": 500
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "description": "Brief product description for cards and previews",
+        "name": "description",
+        "type": "text",
+        "title": "Short Description"
+      },
+      {
+        "description": "Detailed product description with rich text formatting",
+        "of": [
+          {
+            "marks": {
+              "annotations": [
+                {
+                  "i18nTitleKey": "inputs.portable-text.annotation.link",
+                  "options": {
+                    "modal": {
+                      "type": "popover"
+                    }
+                  },
+                  "fields": [
+                    {
+                      "validation": [
+                        {
+                          "rules": [
+                            {
+                              "flag": "uri",
+                              "constraint": {
+                                "options": {
+                                  "scheme": [
+                                    "/^http$/",
+                                    "/^https$/",
+                                    "/^tel$/",
+                                    "/^mailto$/"
+                                  ],
+                                  "allowRelative": true,
+                                  "relativeOnly": false,
+                                  "allowCredentials": false
+                                }
+                              }
+                            }
+                          ],
+                          "level": "error"
+                        }
+                      ],
+                      "description": "A valid web, email, phone, or relative link.",
+                      "name": "href",
+                      "type": "url",
+                      "title": "Link"
+                    }
+                  ],
+                  "name": "link",
+                  "type": "object"
+                }
+              ],
+              "decorators": [
+                {
+                  "value": "strong",
+                  "title": "Strong"
+                },
+                {
+                  "value": "em",
+                  "title": "Emphasis"
+                },
+                {
+                  "value": "code",
+                  "title": "Code"
+                }
+              ]
+            },
+            "lists": [
+              {
+                "value": "bullet",
+                "title": "Bullet"
+              },
+              {
+                "value": "number",
+                "title": "Number"
+              }
+            ],
+            "styles": [
+              {
+                "value": "normal",
+                "title": "Normal"
+              },
+              {
+                "value": "h3",
+                "title": "H3"
+              },
+              {
+                "value": "h4",
+                "title": "H4"
+              },
+              {
+                "value": "blockquote",
+                "title": "Quote"
+              }
+            ],
+            "of": [],
+            "type": "block"
+          }
+        ],
+        "name": "longDescription",
+        "type": "array",
+        "title": "Detailed Description"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "description": "Primary product image shown in gallery",
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image",
+        "type": "array",
+        "title": "Main Product Image"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "description": "Additional product angle or feature",
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image2",
+        "type": "array",
+        "title": "Product Image 2"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "description": "Third product image",
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image3",
+        "type": "array",
+        "title": "Product Image 3"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "description": "Fourth product image",
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image4",
+        "type": "array",
+        "title": "Product Image 4"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "description": "Fifth product image",
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image5",
+        "type": "array",
+        "title": "Product Image 5"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "description": "Sixth product image",
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image6",
+        "type": "array",
+        "title": "Product Image 6"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "uri",
+                "constraint": {
+                  "options": {
+                    "scheme": [
+                      "/^http$/",
+                      "/^https$/"
+                    ],
+                    "allowRelative": false,
+                    "relativeOnly": false,
+                    "allowCredentials": false
+                  }
+                }
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "description": "YouTube, Vimeo, or direct video URL",
+        "name": "videoUrl",
+        "type": "url",
+        "title": "Product Demo Video URL"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              },
+              {
+                "flag": "min",
+                "constraint": 0
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "price",
+        "type": "number",
+        "title": "Current Price (USD)"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "min",
+                "constraint": 0
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "description": "Original price if item is on sale",
+        "name": "originalPrice",
+        "type": "number",
+        "title": "Original Price (for sales)"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "USD ($)",
+              "value": "USD"
+            },
+            {
+              "title": "TTD (TT$)",
+              "value": "TTD"
+            },
+            {
+              "title": "EUR (€)",
+              "value": "EUR"
+            }
+          ]
+        },
+        "initialValue": "USD",
+        "name": "currency",
+        "type": "string"
+      },
+      {
+        "initialValue": true,
+        "name": "inStock",
+        "type": "boolean"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "min",
+                "constraint": 0
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "description": "Number of units available",
+        "name": "stockQuantity",
+        "type": "number"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "min",
+                "constraint": 0
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "description": "Stock count",
+        "name": "stock",
+        "type": "number"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "John Deere",
+              "value": "John Deere"
+            },
+            {
+              "title": "Case IH",
+              "value": "Case IH"
+            },
+            {
+              "title": "New Holland",
+              "value": "New Holland"
+            },
+            {
+              "title": "Kubota",
+              "value": "Kubota"
+            },
+            {
+              "title": "Massey Ferguson",
+              "value": "Massey Ferguson"
+            },
+            {
+              "title": "Caterpillar",
+              "value": "Caterpillar"
+            },
+            {
+              "title": "AGCO",
+              "value": "AGCO"
+            },
+            {
+              "title": "Claas",
+              "value": "Claas"
+            },
+            {
+              "title": "Fendt",
+              "value": "Fendt"
+            },
+            {
+              "title": "Mahindra",
+              "value": "Mahindra"
+            },
+            {
+              "title": "Yanmar",
+              "value": "Yanmar"
+            },
+            {
+              "title": "Stihl",
+              "value": "Stihl"
+            },
+            {
+              "title": "Husqvarna",
+              "value": "Husqvarna"
+            },
+            {
+              "title": "Other",
+              "value": "Other"
+            }
+          ]
+        },
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "valid",
+                "constraint": [
+                  "John Deere",
+                  "Case IH",
+                  "New Holland",
+                  "Kubota",
+                  "Massey Ferguson",
+                  "Caterpillar",
+                  "AGCO",
+                  "Claas",
+                  "Fendt",
+                  "Mahindra",
+                  "Yanmar",
+                  "Stihl",
+                  "Husqvarna",
+                  "Other"
+                ]
+              },
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "brand",
+        "type": "string",
+        "title": "Brand/Manufacturer"
+      },
+      {
+        "description": "Specific model number or designation",
+        "name": "model",
+        "type": "string",
+        "title": "Model Number"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "min",
+                "constraint": 1990
+              },
+              {
+                "flag": "max",
+                "constraint": 2028
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "description": "Year the equipment was manufactured",
+        "name": "manufacturingYear",
+        "type": "number"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Tractors",
+              "value": "tractors"
+            },
+            {
+              "title": "Harvesters",
+              "value": "harvesters"
+            },
+            {
+              "title": "Planters & Seeders",
+              "value": "planters"
+            },
+            {
+              "title": "Irrigation Systems",
+              "value": "irrigation"
+            },
+            {
+              "title": "Tillage Equipment",
+              "value": "tillage"
+            },
+            {
+              "title": "Sprayers",
+              "value": "sprayers"
+            },
+            {
+              "title": "Mowers",
+              "value": "mowers"
+            },
+            {
+              "title": "Balers",
+              "value": "balers"
+            },
+            {
+              "title": "Cultivators",
+              "value": "cultivators"
+            },
+            {
+              "title": "Fertilizer Spreaders",
+              "value": "fertilizer-spreaders"
+            },
+            {
+              "title": "GPS & Precision Farming",
+              "value": "precision-farming"
+            },
+            {
+              "title": "Livestock Equipment",
+              "value": "livestock"
+            },
+            {
+              "title": "Post-Harvest Equipment",
+              "value": "post-harvest"
+            },
+            {
+              "title": "Greenhouse Equipment",
+              "value": "greenhouse"
+            },
+            {
+              "title": "Farm Tools & Implements",
+              "value": "tools-implements"
+            }
+          ]
+        },
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "valid",
+                "constraint": [
+                  "tractors",
+                  "harvesters",
+                  "planters",
+                  "irrigation",
+                  "tillage",
+                  "sprayers",
+                  "mowers",
+                  "balers",
+                  "cultivators",
+                  "fertilizer-spreaders",
+                  "precision-farming",
+                  "livestock",
+                  "post-harvest",
+                  "greenhouse",
+                  "tools-implements"
+                ]
+              },
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "category",
+        "type": "string",
+        "title": "Equipment Category"
+      },
+      {
+        "description": "More specific classification (e.g., \"Compact Tractors\", \"Drip Irrigation\")",
+        "name": "subcategory",
+        "type": "string"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Brand New",
+              "value": "new"
+            },
+            {
+              "title": "Like New",
+              "value": "like-new"
+            },
+            {
+              "title": "Excellent",
+              "value": "excellent"
+            },
+            {
+              "title": "Good",
+              "value": "good"
+            },
+            {
+              "title": "Fair",
+              "value": "fair"
+            },
+            {
+              "title": "Needs Repair",
+              "value": "repair-needed"
+            }
+          ]
+        },
+        "initialValue": "new",
+        "name": "condition",
+        "type": "string",
+        "title": "Equipment Condition"
+      },
+      {
+        "description": "Detailed technical specifications",
+        "fields": [
+          {
+            "description": "Horsepower rating",
+            "name": "enginePower",
+            "type": "number",
+            "title": "Engine Power (HP)"
+          },
+          {
+            "description": "Engine specifications (e.g., \"Diesel 4-cylinder turbo\")",
+            "name": "engineType",
+            "type": "string"
+          },
+          {
+            "options": {
+              "list": [
+                {
+                  "title": "Diesel",
+                  "value": "diesel"
+                },
+                {
+                  "title": "Gasoline",
+                  "value": "gasoline"
+                },
+                {
+                  "title": "Electric",
+                  "value": "electric"
+                },
+                {
+                  "title": "Hybrid",
+                  "value": "hybrid"
+                },
+                {
+                  "title": "Manual/Non-powered",
+                  "value": "manual"
+                },
+                {
+                  "title": "Propane/LPG",
+                  "value": "propane"
+                }
+              ]
+            },
+            "name": "fuelType",
+            "type": "string"
+          },
+          {
+            "description": "Operating width in meters",
+            "name": "workingWidth",
+            "type": "number",
+            "title": "Working Width (meters)"
+          },
+          {
+            "description": "Maximum working depth in centimeters",
+            "name": "workingDepth",
+            "type": "number",
+            "title": "Working Depth (cm)"
+          },
+          {
+            "description": "Total weight in kilograms",
+            "name": "weight",
+            "type": "number",
+            "title": "Weight (kg)"
+          },
+          {
+            "placeholder": "e.g., 4.2m x 2.1m x 2.8m",
+            "description": "Overall dimensions",
+            "name": "dimensions",
+            "type": "string",
+            "title": "Dimensions (L x W x H)"
+          },
+          {
+            "description": "Performance capacity (e.g., \"5 hectares/hour\", \"500L tank\")",
+            "name": "capacity",
+            "type": "string",
+            "title": "Capacity/Output"
+          },
+          {
+            "description": "Compatible attachment systems (e.g., \"3-point hitch\", \"PTO\")",
+            "name": "attachmentPoints",
+            "type": "string"
+          },
+          {
+            "description": "Minimum ground clearance",
+            "name": "groundClearance",
+            "type": "number",
+            "title": "Ground Clearance (cm)"
+          }
+        ],
+        "name": "specifications",
+        "type": "object",
+        "title": "Technical Specifications"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Rice",
+              "value": "rice"
+            },
+            {
+              "title": "Corn/Maize",
+              "value": "corn"
+            },
+            {
+              "title": "Wheat",
+              "value": "wheat"
+            },
+            {
+              "title": "Sugarcane",
+              "value": "sugarcane"
+            },
+            {
+              "title": "Soybeans",
+              "value": "soybeans"
+            },
+            {
+              "title": "Cotton",
+              "value": "cotton"
+            },
+            {
+              "title": "Vegetables",
+              "value": "vegetables"
+            },
+            {
+              "title": "Fruits",
+              "value": "fruits"
+            },
+            {
+              "title": "Coffee",
+              "value": "coffee"
+            },
+            {
+              "title": "Cocoa",
+              "value": "cocoa"
+            },
+            {
+              "title": "Citrus",
+              "value": "citrus"
+            },
+            {
+              "title": "Bananas",
+              "value": "bananas"
+            },
+            {
+              "title": "Coconuts",
+              "value": "coconuts"
+            },
+            {
+              "title": "Pasture/Grassland",
+              "value": "pasture"
+            },
+            {
+              "title": "Universal/All Crops",
+              "value": "universal"
+            }
+          ]
+        },
+        "description": "Types of crops this equipment can handle",
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "cropTypes",
+        "type": "array",
+        "title": "Suitable Crop Types"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Small Farm (0-5 hectares)",
+              "value": "small"
+            },
+            {
+              "title": "Medium Farm (5-20 hectares)",
+              "value": "medium"
+            },
+            {
+              "title": "Large Farm (20-100 hectares)",
+              "value": "large"
+            },
+            {
+              "title": "Commercial Farm (100+ hectares)",
+              "value": "commercial"
+            },
+            {
+              "title": "Any Size",
+              "value": "any"
+            }
+          ]
+        },
+        "name": "farmSize",
+        "type": "string",
+        "title": "Recommended Farm Size"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Flat Land",
+              "value": "flat"
+            },
+            {
+              "title": "Hilly Terrain",
+              "value": "hilly"
+            },
+            {
+              "title": "Rough Terrain",
+              "value": "rough"
+            },
+            {
+              "title": "Paddy Fields",
+              "value": "paddy"
+            },
+            {
+              "title": "Greenhouse",
+              "value": "greenhouse"
+            },
+            {
+              "title": "Orchard",
+              "value": "orchard"
+            },
+            {
+              "title": "Coastal Areas",
+              "value": "coastal"
+            },
+            {
+              "title": "Mountain Slopes",
+              "value": "mountain"
+            }
+          ]
+        },
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "terrainType",
+        "type": "array",
+        "title": "Suitable Terrain"
+      },
+      {
+        "fields": [
+          {
+            "initialValue": false,
+            "name": "gpsEnabled",
+            "type": "boolean",
+            "title": "GPS Enabled"
+          },
+          {
+            "initialValue": false,
+            "name": "autopilot",
+            "type": "boolean",
+            "title": "Auto-pilot/Auto-steer"
+          },
+          {
+            "initialValue": false,
+            "name": "precisionFarming",
+            "type": "boolean",
+            "title": "Precision Farming Compatible"
+          },
+          {
+            "initialValue": false,
+            "name": "iotEnabled",
+            "type": "boolean",
+            "title": "IoT/Smart Connectivity"
+          },
+          {
+            "initialValue": false,
+            "name": "mobileApp",
+            "type": "boolean",
+            "title": "Mobile App Integration"
+          },
+          {
+            "initialValue": false,
+            "name": "dataLogging",
+            "type": "boolean",
+            "title": "Data Logging/Analytics"
+          },
+          {
+            "initialValue": false,
+            "name": "remoteMonitoring",
+            "type": "boolean"
+          },
+          {
+            "initialValue": false,
+            "name": "bluetoothEnabled",
+            "type": "boolean",
+            "title": "Bluetooth Connectivity"
+          }
+        ],
+        "name": "technology",
+        "type": "object",
+        "title": "Technology Features"
+      },
+      {
+        "description": "Operating hours for used equipment",
+        "name": "hoursUsed",
+        "type": "number",
+        "title": "Hours Used (for used equipment)"
+      },
+      {
+        "placeholder": "e.g., \"2 years\", \"12 months parts & labor\"",
+        "name": "warranty",
+        "type": "string",
+        "title": "Warranty Period"
+      },
+      {
+        "description": "Items included (e.g., 1x Device, USB-C Cable, Charger, Manual)",
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "whatsInTheBox",
+        "type": "array",
+        "title": "What's In The Box"
+      },
+      {
+        "initialValue": false,
+        "name": "financing",
+        "type": "boolean",
+        "title": "Financing Available"
+      },
+      {
+        "initialValue": false,
+        "name": "deliveryIncluded",
+        "type": "boolean"
+      },
+      {
+        "initialValue": false,
+        "name": "installationService",
+        "type": "boolean",
+        "title": "Installation Service Available"
+      },
+      {
+        "initialValue": false,
+        "name": "trainingIncluded",
+        "type": "boolean",
+        "title": "Operator Training Included"
+      },
+      {
+        "initialValue": false,
+        "name": "maintenancePackage",
+        "type": "boolean",
+        "title": "Maintenance Package Available"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Port of Spain",
+              "value": "port-of-spain"
+            },
+            {
+              "title": "San Fernando",
+              "value": "san-fernando"
+            },
+            {
+              "title": "Chaguanas",
+              "value": "chaguanas"
+            },
+            {
+              "title": "Arima",
+              "value": "arima"
+            },
+            {
+              "title": "Point Fortin",
+              "value": "point-fortin"
+            },
+            {
+              "title": "Tobago",
+              "value": "tobago"
+            },
+            {
+              "title": "Central Trinidad",
+              "value": "central"
+            },
+            {
+              "title": "South Trinidad",
+              "value": "south"
+            },
+            {
+              "title": "North Trinidad",
+              "value": "north"
+            },
+            {
+              "title": "East Trinidad",
+              "value": "east"
+            },
+            {
+              "title": "Import Order (2-4 weeks)",
+              "value": "import-order"
+            },
+            {
+              "title": "Special Order",
+              "value": "special-order"
+            }
+          ]
+        },
+        "name": "location",
+        "type": "string",
+        "title": "Available Location"
+      },
+      {
+        "description": "Maximum delivery distance in kilometers",
+        "name": "deliveryRadius",
+        "type": "number",
+        "title": "Delivery Radius (km)"
+      },
+      {
+        "initialValue": false,
+        "name": "featured",
+        "type": "boolean",
+        "title": "Featured Product"
+      },
+      {
+        "initialValue": false,
+        "name": "onSale",
+        "type": "boolean"
+      },
+      {
+        "initialValue": false,
+        "name": "bestSeller",
+        "type": "boolean"
+      },
+      {
+        "initialValue": false,
+        "name": "newArrival",
+        "type": "boolean"
+      },
+      {
+        "options": {
+          "layout": "tags"
+        },
+        "description": "Tags for filtering and search",
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "tags",
+        "type": "array",
+        "title": "Product Tags"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "max",
+                "constraint": 60
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "description": "SEO optimized page title",
+        "name": "seoTitle",
+        "type": "string",
+        "title": "SEO Title"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "max",
+                "constraint": 160
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "description": "SEO meta description",
+        "name": "seoDescription",
+        "type": "text",
+        "title": "SEO Description"
+      },
+      {
+        "description": "List of key product features and benefits",
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "features",
+        "type": "array",
+        "title": "Key Features"
+      },
+      {
+        "description": "Items included with the product",
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "included",
+        "type": "array",
+        "title": "What's Included"
+      },
+      {
+        "description": "Requirements for operation (power, space, etc.)",
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "requirements",
+        "type": "array"
+      },
+      {
+        "description": "Main headline for social media and marketing posts",
+        "name": "marketingHeadline",
+        "type": "string"
+      },
+      {
+        "rows": 5,
+        "description": "Full caption for social media posts (Instagram, Facebook, etc.)",
+        "name": "marketingCaption",
+        "type": "text"
+      },
+      {
+        "options": {
+          "layout": "tags"
+        },
+        "description": "Hashtags for social media posts",
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "marketingHashtags",
+        "type": "array"
+      },
+      {
+        "rows": 6,
+        "description": "Additional product details and selling points",
+        "name": "details",
+        "type": "text",
+        "title": "Product Details"
+      },
+      {
+        "options": {
+          "layout": "tags"
+        },
+        "description": "SEO keywords for search indexing",
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "keywoards",
+        "type": "array",
+        "title": "Keywords (SEO)"
+      },
+      {
+        "description": "Internal inventory/catalog reference",
+        "name": "productCode",
+        "type": "string",
+        "title": "Internal Product Code"
+      },
+      {
+        "description": "Primary supplier or dealer",
+        "name": "supplier",
+        "type": "string",
+        "title": "Supplier/Dealer"
+      },
+      {
+        "description": "Expected delivery time (e.g., \"In Stock\", \"2-3 weeks\")",
+        "name": "leadTime",
+        "type": "string"
+      },
+      {
+        "name": "publishedAt",
+        "type": "datetime",
+        "title": "Published Date"
+      },
+      {
+        "description": "Package weight in kilograms for shipping calculation",
+        "name": "shippingWeightKg",
+        "type": "number",
+        "title": "Shipping Weight (kg)"
+      },
+      {
+        "description": "Package length in centimeters",
+        "name": "shippingLengthCm",
+        "type": "number",
+        "title": "Package Length (cm)"
+      },
+      {
+        "description": "Package width in centimeters",
+        "name": "shippingWidthCm",
+        "type": "number",
+        "title": "Package Width (cm)"
+      },
+      {
+        "description": "Package height in centimeters",
+        "name": "shippingHeightCm",
+        "type": "number",
+        "title": "Package Height (cm)"
+      }
+    ],
+    "name": "agritechPage",
+    "type": "document",
+    "title": "AgriTech Product Page"
+  },
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "description": "The unique user ID from Clerk authentication",
+        "name": "userId",
+        "type": "string",
+        "title": "User ID (from Clerk)"
+      },
+      {
+        "of": [
+          {
+            "fields": [
+              {
+                "validation": [
+                  {
+                    "rules": [
+                      {
+                        "flag": "presence",
+                        "constraint": "required"
+                      }
+                    ],
+                    "level": "error"
+                  }
+                ],
+                "name": "productId",
+                "type": "string",
+                "title": "Product ID"
+              },
+              {
+                "description": "Internal reference or Sanity document ID",
+                "name": "internalId",
+                "type": "string",
+                "title": "Internal Product ID"
+              },
+              {
+                "validation": [
+                  {
+                    "rules": [
+                      {
+                        "flag": "presence",
+                        "constraint": "required"
+                      }
+                    ],
+                    "level": "error"
+                  }
+                ],
+                "name": "name",
+                "type": "string",
+                "title": "Product Name"
+              },
+              {
+                "validation": [
+                  {
+                    "rules": [
+                      {
+                        "flag": "presence",
+                        "constraint": "required"
+                      },
+                      {
+                        "flag": "min",
+                        "constraint": 0
+                      }
+                    ],
+                    "level": "error"
+                  }
+                ],
+                "name": "price",
+                "type": "number"
+              },
+              {
+                "initialValue": 1,
+                "validation": [
+                  {
+                    "rules": [
+                      {
+                        "flag": "presence",
+                        "constraint": "required"
+                      },
+                      {
+                        "flag": "min",
+                        "constraint": 1
+                      }
+                    ],
+                    "level": "error"
+                  }
+                ],
+                "name": "quantity",
+                "type": "number"
+              },
+              {
+                "validation": [
+                  {
+                    "rules": [
+                      {
+                        "flag": "uri",
+                        "constraint": {
+                          "options": {
+                            "scheme": [
+                              "/^http$/",
+                              "/^https$/"
+                            ],
+                            "allowRelative": false,
+                            "relativeOnly": false,
+                            "allowCredentials": false
+                          }
+                        }
+                      }
+                    ],
+                    "level": "error"
+                  }
+                ],
+                "description": "URL to the product image",
+                "name": "imageUrl",
+                "type": "url",
+                "title": "Product Image URL"
+              },
+              {
+                "name": "brand",
+                "type": "string"
+              },
+              {
+                "name": "category",
+                "type": "string"
+              },
+              {
+                "options": {
+                  "list": [
+                    {
+                      "title": "Rugged Device",
+                      "value": "rugged-device"
+                    },
+                    {
+                      "title": "Suzuki Part",
+                      "value": "suzuki-part"
+                    },
+                    {
+                      "title": "Accessory",
+                      "value": "accessory"
+                    },
+                    {
+                      "title": "General Product",
+                      "value": "product"
+                    }
+                  ]
+                },
+                "initialValue": "product",
+                "name": "type",
+                "type": "string",
+                "title": "Product Type"
+              },
+              {
+                "description": "For Suzuki parts and specific products",
+                "name": "partNumber",
+                "type": "string"
+              },
+              {
+                "description": "Compatible models/devices",
+                "name": "compatibility",
+                "type": "string"
+              },
+              {
+                "name": "color",
+                "type": "string",
+                "title": "Color/Variant"
+              },
+              {
+                "name": "features",
+                "type": "string",
+                "title": "Key Features"
+              },
+              {
+                "initialValue": true,
+                "name": "inStock",
+                "type": "boolean"
+              },
+              {
+                "description": "User ID who added this item",
+                "name": "addedBy",
+                "type": "string",
+                "title": "Added By User"
+              },
+              {
+                "description": "When this item was added to cart",
+                "name": "addedAt",
+                "type": "datetime"
+              }
+            ],
+            "type": "object",
+            "name": "cartItem"
+          }
+        ],
+        "name": "cartItems",
+        "type": "array"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "min",
+                "constraint": 0
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "description": "Total number of items in cart (sum of quantities)",
+        "name": "itemCount",
+        "type": "number",
+        "title": "Total Items Count"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "min",
+                "constraint": 0
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "description": "Total value of all items in cart",
+        "name": "totalValue",
+        "type": "number",
+        "title": "Total Cart Value"
+      },
+      {
+        "description": "When the cart was last modified",
+        "name": "lastUpdated",
+        "type": "datetime"
+      },
+      {
+        "options": {
+          "collapsible": true,
+          "collapsed": true
+        },
+        "fields": [
+          {
+            "name": "userAgent",
+            "type": "string"
+          },
+          {
+            "name": "lastIP",
+            "type": "string",
+            "title": "Last IP Address"
+          },
+          {
+            "options": {
+              "list": [
+                "desktop",
+                "mobile",
+                "tablet",
+                "unknown"
+              ]
+            },
+            "name": "deviceType",
+            "type": "string"
+          }
+        ],
+        "name": "sessionInfo",
+        "type": "object",
+        "title": "Session Information"
+      }
+    ],
+    "name": "userCart",
+    "type": "document",
+    "title": "User Shopping Cart"
+  },
+  {
+    "fields": [
+      {
+        "description": "Unique identifier for sharing the wishlist",
+        "name": "shareId",
+        "type": "string",
+        "title": "Share ID"
+      },
+      {
+        "description": "Name of the wishlist owner",
+        "name": "ownerName",
+        "type": "string"
+      },
+      {
+        "description": "Clerk user ID of the wishlist owner",
+        "name": "ownerId",
+        "type": "string",
+        "title": "Owner ID"
+      },
+      {
+        "of": [
+          {
+            "fields": [
+              {
+                "name": "id",
+                "type": "string",
+                "title": "Product ID"
+              },
+              {
+                "name": "name",
+                "type": "string",
+                "title": "Product Name"
+              },
+              {
+                "name": "price",
+                "type": "number"
+              },
+              {
+                "name": "brand",
+                "type": "string"
+              },
+              {
+                "name": "category",
+                "type": "string"
+              },
+              {
+                "name": "type",
+                "type": "string",
+                "title": "Product Type"
+              },
+              {
+                "name": "slug",
+                "type": "string"
+              },
+              {
+                "name": "imageUrl",
+                "type": "string",
+                "title": "Image URL"
+              }
+            ],
+            "type": "object"
+          }
+        ],
+        "name": "items",
+        "type": "array",
+        "title": "Wishlist Items"
+      },
+      {
+        "name": "createdAt",
+        "type": "datetime"
+      },
+      {
+        "name": "updatedAt",
+        "type": "datetime"
+      }
+    ],
+    "name": "sharedWishlist",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "productId",
+        "type": "string",
+        "title": "Product ID"
+      },
+      {
+        "name": "productSlug",
+        "type": "string"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Product",
+              "value": "product"
+            },
+            {
+              "title": "Phone",
+              "value": "phone"
+            },
+            {
+              "title": "Suzuki Part",
+              "value": "car"
+            },
+            {
+              "title": "AgriTech",
+              "value": "agritechPage"
+            }
+          ]
+        },
+        "name": "productType",
+        "type": "string"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "customerName",
+        "type": "string"
+      },
+      {
+        "name": "customerEmail",
+        "type": "string"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              },
+              {
+                "flag": "min",
+                "constraint": 1
+              },
+              {
+                "flag": "max",
+                "constraint": 5
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "rating",
+        "type": "number"
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "title": "Review Title"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              },
+              {
+                "flag": "min",
+                "constraint": 10
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "content",
+        "type": "text",
+        "title": "Review Content"
+      },
+      {
+        "initialValue": false,
+        "name": "verified",
+        "type": "boolean",
+        "title": "Verified Purchase"
+      },
+      {
+        "initialValue": false,
+        "name": "approved",
+        "type": "boolean"
+      },
+      {
+        "initialValue": 0,
+        "name": "helpful",
+        "type": "number",
+        "title": "Helpful Votes"
+      },
+      {
+        "name": "createdAt",
+        "type": "datetime"
+      }
+    ],
+    "name": "review",
+    "type": "document",
+    "title": "Product Reviews"
+  },
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "email",
+        "type": "string"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Exit Intent Popup",
+              "value": "exit-intent"
+            },
+            {
+              "title": "Footer Newsletter",
+              "value": "footer"
+            },
+            {
+              "title": "Checkout",
+              "value": "checkout"
+            },
+            {
+              "title": "Website",
+              "value": "website"
+            }
+          ]
+        },
+        "name": "source",
+        "type": "string"
+      },
+      {
+        "name": "subscribedAt",
+        "type": "datetime"
+      },
+      {
+        "initialValue": true,
+        "name": "active",
+        "type": "boolean"
+      }
+    ],
+    "name": "subscriber",
+    "type": "document",
+    "title": "Email Subscribers"
+  },
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "name",
+        "type": "string",
+        "title": "Product Name"
+      },
+      {
+        "description": "Alt text for images.",
+        "name": "imageAlt",
+        "type": "string",
+        "title": "Image SEO Description"
+      },
+      {
+        "options": {
+          "source": "name",
+          "maxLength": 96
+        },
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "custom"
+              },
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "slug",
+        "type": "slug"
+      },
+      {
+        "rows": 4,
+        "name": "description",
+        "type": "text"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image",
+        "type": "array",
+        "title": "Main Image"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image2",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image3",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image4",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image5",
+        "type": "array"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "of": [
+          {
+            "type": "image"
+          }
+        ],
+        "name": "image6",
+        "type": "array"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              },
+              {
+                "flag": "min",
+                "constraint": 0
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "price",
+        "type": "number"
+      },
+      {
+        "description": "Original price if on sale",
+        "name": "originalPrice",
+        "type": "number"
+      },
+      {
+        "name": "brand",
+        "type": "string"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Solar Systems",
+              "value": "solar-systems"
+            },
+            {
+              "title": "Power Stations",
+              "value": "power-stations"
+            },
+            {
+              "title": "Generators",
+              "value": "generators"
+            },
+            {
+              "title": "Batteries",
+              "value": "batteries"
+            },
+            {
+              "title": "Inverters",
+              "value": "inverters"
+            },
+            {
+              "title": "Charge Controllers",
+              "value": "charge-controllers"
+            },
+            {
+              "title": "Solar Panels",
+              "value": "solar-panels"
+            },
+            {
+              "title": "Wind Turbines",
+              "value": "wind-turbines"
+            }
+          ]
+        },
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "valid",
+                "constraint": [
+                  "solar-systems",
+                  "power-stations",
+                  "generators",
+                  "batteries",
+                  "inverters",
+                  "charge-controllers",
+                  "solar-panels",
+                  "wind-turbines"
+                ]
+              },
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "equipmentType",
+        "type": "string"
+      },
+      {
+        "description": "e.g., 2000W, 500W, 3000W Peak",
+        "name": "powerOutput",
+        "type": "string"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Solar",
+              "value": "solar"
+            },
+            {
+              "title": "Fuel (Petrol/Diesel)",
+              "value": "fuel"
+            },
+            {
+              "title": "LPG",
+              "value": "lpg"
+            },
+            {
+              "title": "Hybrid",
+              "value": "hybrid"
+            },
+            {
+              "title": "Battery / Electric",
+              "value": "battery"
+            },
+            {
+              "title": "Wind",
+              "value": "wind"
+            }
+          ]
+        },
+        "name": "powerSource",
+        "type": "string"
+      },
+      {
+        "description": "e.g., 1024Wh, 2048Wh, 100Ah",
+        "name": "batteryCapacity",
+        "type": "string"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "LiFePO4",
+              "value": "lifepo4"
+            },
+            {
+              "title": "Lithium-ion",
+              "value": "lithium-ion"
+            },
+            {
+              "title": "Lead Acid",
+              "value": "lead-acid"
+            },
+            {
+              "title": "AGM",
+              "value": "agm"
+            }
+          ]
+        },
+        "name": "batteryType",
+        "type": "string"
+      },
+      {
+        "description": "e.g., Max 400W, MPPT 12-50V",
+        "name": "solarInput",
+        "type": "string"
+      },
+      {
+        "description": "e.g., 2x 120V/15A, Pure Sine Wave",
+        "name": "acOutput",
+        "type": "string",
+        "title": "AC Output"
+      },
+      {
+        "description": "e.g., 12V/10A Car Port, USB-A, USB-C PD 100W",
+        "name": "dcOutput",
+        "type": "string",
+        "title": "DC Output"
+      },
+      {
+        "description": "e.g., 2 hours wall, 4 hours solar",
+        "name": "chargingTime",
+        "type": "string"
+      },
+      {
+        "description": "e.g., 12.5 kg",
+        "name": "weight",
+        "type": "string"
+      },
+      {
+        "description": "e.g., 400 x 300 x 280mm",
+        "name": "dimensions",
+        "type": "string"
+      },
+      {
+        "description": "e.g., -10°C to 45°C",
+        "name": "operatingTemperature",
+        "type": "string"
+      },
+      {
+        "description": "e.g., 3500+ cycles to 80%",
+        "name": "cycleLife",
+        "type": "string"
+      },
+      {
+        "description": "e.g., 55dB (for generators)",
+        "name": "noiseLevel",
+        "type": "string"
+      },
+      {
+        "initialValue": false,
+        "name": "solarCompatible",
+        "type": "boolean",
+        "title": "Solar Panel Compatible"
+      },
+      {
+        "initialValue": true,
+        "name": "inStock",
+        "type": "boolean"
+      },
+      {
+        "name": "stockQuantity",
+        "type": "number"
+      },
+      {
+        "initialValue": false,
+        "name": "featured",
+        "type": "boolean"
+      },
+      {
+        "initialValue": false,
+        "name": "onSale",
+        "type": "boolean"
+      },
+      {
+        "description": "Any extra specs not covered above",
+        "name": "specifications",
+        "type": "text",
+        "title": "Additional Specifications"
+      },
+      {
+        "name": "warranty",
+        "type": "string"
+      },
+      {
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "whatsInTheBox",
+        "type": "array",
+        "title": "What's In The Box"
+      },
+      {
+        "description": "Package weight in kilograms for shipping calculation",
+        "name": "shippingWeightKg",
+        "type": "number",
+        "title": "Shipping Weight (kg)"
+      },
+      {
+        "description": "Package length in centimeters",
+        "name": "shippingLengthCm",
+        "type": "number",
+        "title": "Package Length (cm)"
+      },
+      {
+        "description": "Package width in centimeters",
+        "name": "shippingWidthCm",
+        "type": "number",
+        "title": "Package Width (cm)"
+      },
+      {
+        "description": "Package height in centimeters",
+        "name": "shippingHeightCm",
+        "type": "number",
+        "title": "Package Height (cm)"
+      }
+    ],
+    "name": "offgrid",
+    "type": "document",
+    "title": "Off Grid Equipment"
+  },
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "name",
+        "type": "string",
+        "title": "Product Name"
+      },
+      {
+        "name": "sku",
+        "type": "string",
+        "title": "SKU"
+      },
+      {
+        "rows": 3,
+        "name": "description",
+        "type": "text"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "name": "image",
+        "type": "image",
+        "title": "Product Image"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              },
+              {
+                "flag": "min",
+                "constraint": 0
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "wholesalePrice",
+        "type": "number",
+        "title": "Wholesale Price (TT$)"
+      },
+      {
+        "description": "Optional - shown as reference for resellers",
+        "name": "retailPrice",
+        "type": "number",
+        "title": "Retail Price (TT$)"
+      },
+      {
+        "initialValue": 0,
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              },
+              {
+                "flag": "min",
+                "constraint": 0
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "stock",
+        "type": "number",
+        "title": "Stock Quantity"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Body Parts",
+              "value": "body-parts"
+            },
+            {
+              "title": "Engine Parts",
+              "value": "engine-parts"
+            },
+            {
+              "title": "Accessories",
+              "value": "accessories"
+            },
+            {
+              "title": "Lighting",
+              "value": "lighting"
+            },
+            {
+              "title": "Interior",
+              "value": "interior"
+            },
+            {
+              "title": "Exterior",
+              "value": "exterior"
+            },
+            {
+              "title": "Suspension",
+              "value": "suspension"
+            },
+            {
+              "title": "Other",
+              "value": "other"
+            }
+          ]
+        },
+        "name": "category",
+        "type": "string"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Jimny",
+              "value": "jimny"
+            },
+            {
+              "title": "Swift",
+              "value": "swift"
+            },
+            {
+              "title": "Vitara",
+              "value": "vitara"
+            },
+            {
+              "title": "Alto",
+              "value": "alto"
+            },
+            {
+              "title": "Wagon R",
+              "value": "wagon-r"
+            },
+            {
+              "title": "Universal",
+              "value": "universal"
+            }
+          ]
+        },
+        "name": "vehicleModel",
+        "type": "string"
+      },
+      {
+        "initialValue": 1,
+        "name": "minOrderQty",
+        "type": "number",
+        "title": "Minimum Order Quantity"
+      },
+      {
+        "initialValue": true,
+        "name": "isActive",
+        "type": "boolean",
+        "title": "Active in Catalog"
+      },
+      {
+        "initialValue": 0,
+        "name": "sortOrder",
+        "type": "number"
+      }
+    ],
+    "name": "wholesaleSuzuki",
+    "type": "document",
+    "title": "Wholesale - Suzuki Parts"
+  },
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "name",
+        "type": "string",
+        "title": "Product Name"
+      },
+      {
+        "name": "sku",
+        "type": "string",
+        "title": "SKU"
+      },
+      {
+        "rows": 3,
+        "name": "description",
+        "type": "text"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "name": "image",
+        "type": "image",
+        "title": "Product Image"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              },
+              {
+                "flag": "min",
+                "constraint": 0
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "wholesalePrice",
+        "type": "number",
+        "title": "Wholesale Price (TT$)"
+      },
+      {
+        "description": "Optional - shown as reference for resellers",
+        "name": "retailPrice",
+        "type": "number",
+        "title": "Retail Price (TT$)"
+      },
+      {
+        "initialValue": 0,
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              },
+              {
+                "flag": "min",
+                "constraint": 0
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "stock",
+        "type": "number",
+        "title": "Stock Quantity"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Sensors",
+              "value": "sensors"
+            },
+            {
+              "title": "Drones",
+              "value": "drones"
+            },
+            {
+              "title": "Irrigation",
+              "value": "irrigation"
+            },
+            {
+              "title": "Monitoring",
+              "value": "monitoring"
+            },
+            {
+              "title": "Tools",
+              "value": "tools"
+            },
+            {
+              "title": "Equipment",
+              "value": "equipment"
+            },
+            {
+              "title": "GPS & Navigation",
+              "value": "gps-navigation"
+            },
+            {
+              "title": "Other",
+              "value": "other"
+            }
+          ]
+        },
+        "name": "category",
+        "type": "string"
+      },
+      {
+        "initialValue": 1,
+        "name": "minOrderQty",
+        "type": "number",
+        "title": "Minimum Order Quantity"
+      },
+      {
+        "initialValue": true,
+        "name": "isActive",
+        "type": "boolean",
+        "title": "Active in Catalog"
+      },
+      {
+        "initialValue": 0,
+        "name": "sortOrder",
+        "type": "number"
+      }
+    ],
+    "name": "wholesaleFarming",
+    "type": "document",
+    "title": "Wholesale - Precision Farming"
+  },
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "name",
+        "type": "string",
+        "title": "Product Name"
+      },
+      {
+        "name": "sku",
+        "type": "string",
+        "title": "SKU"
+      },
+      {
+        "rows": 3,
+        "name": "description",
+        "type": "text"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "name": "image",
+        "type": "image",
+        "title": "Product Image"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              },
+              {
+                "flag": "min",
+                "constraint": 0
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "wholesalePrice",
+        "type": "number",
+        "title": "Wholesale Price (TT$)"
+      },
+      {
+        "description": "Optional - shown as reference for resellers",
+        "name": "retailPrice",
+        "type": "number",
+        "title": "Retail Price (TT$)"
+      },
+      {
+        "initialValue": 0,
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              },
+              {
+                "flag": "min",
+                "constraint": 0
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "stock",
+        "type": "number",
+        "title": "Stock Quantity"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Rugged Phones",
+              "value": "rugged-phones"
+            },
+            {
+              "title": "Tablets",
+              "value": "tablets"
+            },
+            {
+              "title": "Smartwatches",
+              "value": "smartwatches"
+            },
+            {
+              "title": "Accessories",
+              "value": "accessories"
+            },
+            {
+              "title": "Off Grid",
+              "value": "off-grid"
+            },
+            {
+              "title": "Audio",
+              "value": "audio"
+            },
+            {
+              "title": "Other",
+              "value": "other"
+            }
+          ]
+        },
+        "name": "category",
+        "type": "string"
+      },
+      {
+        "initialValue": 1,
+        "name": "minOrderQty",
+        "type": "number",
+        "title": "Minimum Order Quantity"
+      },
+      {
+        "initialValue": true,
+        "name": "isActive",
+        "type": "boolean",
+        "title": "Active in Catalog"
+      },
+      {
+        "initialValue": 0,
+        "name": "sortOrder",
+        "type": "number"
+      }
+    ],
+    "name": "wholesaleElectronics",
+    "type": "document",
+    "title": "Wholesale - RUGGTECH Electronics"
+  },
+  {
+    "fields": [
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Part / Product Not Found",
+              "value": "part_not_found"
+            },
+            {
+              "title": "Price / Bulk Quote",
+              "value": "price_quote"
+            },
+            {
+              "title": "Custom Order",
+              "value": "custom_order"
+            },
+            {
+              "title": "Support Ticket",
+              "value": "support_ticket"
+            }
+          ],
+          "layout": "radio"
+        },
+        "name": "inquiryType",
+        "type": "string"
+      },
+      {
+        "name": "partName",
+        "type": "string",
+        "title": "Product / Part Name"
+      },
+      {
+        "name": "vehicleMake",
+        "type": "string"
+      },
+      {
+        "name": "vehicleModel",
+        "type": "string"
+      },
+      {
+        "name": "vehicleYear",
+        "type": "string"
+      },
+      {
+        "name": "partNumber",
+        "type": "string",
+        "title": "Part Number / SKU"
+      },
+      {
+        "initialValue": 1,
+        "name": "quantity",
+        "type": "number"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Low",
+              "value": "low"
+            },
+            {
+              "title": "Normal",
+              "value": "normal"
+            },
+            {
+              "title": "Urgent",
+              "value": "urgent"
+            }
+          ],
+          "layout": "radio"
+        },
+        "initialValue": "normal",
+        "name": "urgency",
+        "type": "string"
+      },
+      {
+        "rows": 4,
+        "name": "notes",
+        "type": "text",
+        "title": "Additional Notes"
+      },
+      {
+        "name": "customerName",
+        "type": "string"
+      },
+      {
+        "name": "customerEmail",
+        "type": "string"
+      },
+      {
+        "description": "Include country code, e.g. 18683001234",
+        "name": "customerWhatsapp",
+        "type": "string",
+        "title": "Customer WhatsApp"
+      },
+      {
+        "readOnly": true,
+        "name": "customerId",
+        "type": "string",
+        "title": "Clerk User ID"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Email",
+              "value": "email"
+            },
+            {
+              "title": "WhatsApp",
+              "value": "whatsapp"
+            }
+          ],
+          "layout": "radio"
+        },
+        "name": "preferredContact",
+        "type": "string",
+        "title": "Preferred Contact Channel"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "🆕 New",
+              "value": "new"
+            },
+            {
+              "title": "🔍 Sourcing",
+              "value": "sourcing"
+            },
+            {
+              "title": "✅ Found",
+              "value": "found"
+            },
+            {
+              "title": "📧 Notified",
+              "value": "notified"
+            },
+            {
+              "title": "🔒 Closed",
+              "value": "closed"
+            }
+          ],
+          "layout": "radio"
+        },
+        "initialValue": "new",
+        "name": "status",
+        "type": "string"
+      },
+      {
+        "readOnly": true,
+        "name": "createdAt",
+        "type": "datetime"
+      },
+      {
+        "initialValue": "chat",
+        "readOnly": true,
+        "name": "source",
+        "type": "string"
+      },
+      {
+        "rows": 3,
+        "name": "adminNotes",
+        "type": "text"
+      }
+    ],
+    "name": "partsRequest",
+    "type": "document",
+    "title": "Customer Inquiries"
+  }
+]

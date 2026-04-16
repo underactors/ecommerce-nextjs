@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ruggtech.com/sitemap.xml
+
+Disallow: /api/
+Disallow: /cart/
+Disallow: /account/
+Disallow: /checkout/
+Disallow: /payment/
+Disallow: /_next/
+Disallow: /wishlist/share/
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
